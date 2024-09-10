@@ -1,0 +1,2189 @@
+{
+  "label": "Ship Aspects",
+  "mapping": {
+    "details": "system.details",
+    "type": "system.type"
+  },
+  "entries": {
+    "+Broken Battery": {
+      "name": "+Broken Battery",
+      "details": "<p>Why repair trashed ceramic batteries when you can recycle them? Deals massive LR Volt damage.</p>",
+      "type": "Torpedo Charge"
+    },
+    "+Cog Collection": {
+      "name": "+Cog Collection",
+      "details": "<p>Though not particularly sharp, the speed at which they travel lends an unexpected edge. Deals massive LR Serrated damage.</p>",
+      "type": "Torpedo Charge"
+    },
+    "+Long Night Herbs": {
+      "name": "+Long Night Herbs",
+      "details": "<p>Harvested and woven together with extreme care, these volatile herbs implode with a savage cold when disturbed. Deals massive LR Frost damage.</p>",
+      "type": "Torpedo Charge"
+    },
+    "+Solid Core": {
+      "name": "+Solid Core",
+      "details": "<p>There's much to be said for a chunk of salvaged iron, but you'll have to speak fast. Deals massive LR Blunt damage.</p>",
+      "type": "Torpedo Charge"
+    },
+    "+Whalebane": {
+      "name": "+Whalebane",
+      "details": "<p>Named by an amberclad woken from dreams of ancient salt. Deals massive LR Spike damage.</p>",
+      "type": "Torpedo Charge"
+    },
+    "A Brace of Hounds": {
+      "name": "A Brace of Hounds",
+      "details": "<p>Perhaps not best friend material, these dogs are at least fiercely protective of their ship (despite having few other uses than comfort and the ability to play a great\r\ngame of fetch).</p>",
+      "type": "Beast Packs"
+    },
+    "A Stretch of Slinks": {
+      "name": "A Stretch of Slinks",
+      "details": "<p>Semi-spectral cats usually found in dockyards and spitcity alleyways, ship-born slinks spend most of their time hunting down rats and finding ways to get into the most absurdly awkward spaces.</p>",
+      "type": "Beast Packs"
+    },
+    "Acid Maw": {
+      "name": "Acid Maw",
+      "details": "<p>An open chemical vat that melts down scrap metal, piping the resulting pressurised slurry around the ship. Potent and almost impossible to interrupt.</p><p>Fuelled with salvage and scrap.</p>",
+      "type": "Двигун"
+    },
+    "Aerial Anchor": {
+      "name": "Aerial Anchor",
+      "details": "<p>A deployable chemical balloon that holds lighter-than-air gas, and a weighted pendulum-style chain below. Ships with aerial anchors may Drift while at height, even if it can't usually Float or Hover.</p>",
+      "type": "Rising Fittings"
+    },
+    "Aeroviathan Bones": {
+      "name": "Aeroviathan Bones",
+      "details": "<p>Hollow bones taken from huge aerial creatures, resistant to damage but naturally light.</p>",
+      "type": "Корпус"
+    },
+    "Algae Farm": {
+      "name": "Algae Farm",
+      "details": "<p>Though difficult to maintain, algae farms offer an unprecedented opportunity for tailors and ravellers alike.</p><p>Increase the Grow tracks of plants in this plot by two boxes. Whenever you harvest a plant from an algae farm, gain an additional specimen of coloured dye related to the plant.</p>",
+      "type": "Full Gardening Solutions"
+    },
+    "Amber Hothouse": {
+      "name": "Amber Hothouse",
+      "details": "<p>Once per journey, roll a d6. On a 6, all plants within the plot gain a rare tag, 'Flourishing'. On a 5 or 4, mark a box on the Grow track of all plants within the plot. On a 3, 2, or 1, the plot has no additional effect.</p>",
+      "type": "Gardening Plots"
+    },
+    "Ambered Cylinder": {
+      "name": "Ambered Cylinder",
+      "details": "<p>Usually found running the length of the deck, a gyroscope soaked with cloudward dreams.</p><p>Takeoff Cost: Tilt\nFlight Style: Rush, Hover</p>",
+      "type": "Lift Systems"
+    },
+    "Ambershell": {
+      "name": "Ambershell",
+      "details": "<p>A retractable amber canopy that can fully enclose the deck. The shell's translucent nature allows good all around vision on deck, and the unbroken finish allows wildsailors on deck to benefit from their ship's internal scrubbers.</p><p>Deck area benefits from ship's interior resistances</p>",
+      "type": "Pressure Shells"
+    },
+    "Amoebic Bubble": {
+      "name": "Amoebic Bubble",
+      "details": "<p>A slick alchemical bubble covering any exposed deck area, shimmering like oil.</p><p>Deck area benefits from ship's interior resistances</p>",
+      "type": "Pressure Shells"
+    },
+    "Anchor System": {
+      "name": "Anchor System",
+      "details": "<p>Lengths of chain with heavy curved hooks, used to anchor ships to the branches of the Wildsea. Almost every ship comes with this as standard.</p>",
+      "type": "General Additions"
+    },
+    "Anchored Blossom-Scatter": {
+      "name": "Anchored Blossom-Scatter",
+      "details": "<p>When you harvest a plant grown in anchored blossom-scatter, roll a d6. On a 6, the resulting specimen gains the 'Pre-Verdant' tag. On a 5 or 4, the resulting specimen gains the 'Spirited' tag. On a 3, 2, or 1 the specimen gains the 'Mournful' tag.</p>",
+      "type": "Gardening Mediums"
+    },
+    "Angler Fins": {
+      "name": "Angler Fins",
+      "details": "<p>These wood or metal fins grant a greater level of control over movements while airborne. Reduce cut on tricky aerobatic manoeuvres (such as barrel rolls and sharp turns) no matter the atmospheric conditions.</p>",
+      "type": "Rising Fittings"
+    },
+    "Antiballast": {
+      "name": "Antiballast",
+      "details": "<p>Multiple canvas balloons placed strategically within the ship, pipes running between them. The gas they fill with doesn't stay lighter-than-air for long, but it's enough to get some distance from the wavetops.</p><p>Additional Style: Float</p>",
+      "type": "Auxiliary Lift Systems"
+    },
+    "Arachnesque": {
+      "name": "Arachnesque",
+      "details": "<p>Less of a hull and more of a giant insect grown to fit the specifications of your frame, usually something spider-like.</p>",
+      "type": "Корпус"
+    },
+    "Asteroid Anchor": {
+      "name": "Asteroid Anchor",
+      "details": "<p>A chunk of fallen star with unusual properties of spirit attraction. The main mass is almost too heavy to move, but fragments cut from it retain some of its most useful properties for a time.</p><p>Optimal Use: Launch a fragment from the deck to clear a burn on any spirit-based Eye.\nAlternate Use: The asteroid metal produces a low boom when run, which wakes nearby intangibles into true corporeality for a short time.</p>",
+      "type": "Bafflers"
+    },
+    "Atmosferrets": {
+      "name": "Atmosferrets",
+      "details": "<p>Lithe little beasts with shaggy coats, primarily for companionship or distraction at extreme heights.</p>",
+      "type": "Rising Beast Packs"
+    },
+    "Ballast Tanks": {
+      "name": "Ballast Tanks",
+      "details": "<p>Filled with wood chips, spoiled liquids and rusted salvage. These tanks can be opened remotely and their contents dumped for a burst of height while aloft.</p>",
+      "type": "Rising Fittings"
+    },
+    "Bark Buffers": {
+      "name": "Bark Buffers",
+      "details": "<p>Used in conjunction with xylem wheel-saws for more comfortable transitions.</p><p>When entering or exiting an ironroot's internal structure (such as when using a Xylem Wheel-Saw), make an Armour ratings roll. On a triumph, the usual mark of damage isn't applied.</p>",
+      "type": "Xylem Phloers"
+    },
+    "Bark-Scale": {
+      "name": "Bark-Scale",
+      "details": "<p>Chemically treated for flexibility, but still liable to catch and drag as a ship moves, bark-scale's true benefits is in the natural camouflage it offers at depth.</p><p>Increase impact on stealth rating rolls taken when at anchor within the depths.</p>",
+      "type": "Корпус"
+    },
+    "Barrens": {
+      "name": "Barrens",
+      "details": "<p>When you sow a plant in barrens, add three extra boxes to the plant's track.</p>",
+      "type": "Gardening Mediums"
+    },
+    "Beast-Reins": {
+      "name": "Beast-Reins",
+      "details": "<p>An arrangement similar to a leash or yoke, allowing well-trained beasts to pull the ship like a chariot.</p><p>When you choose beast-reins, decide what kind of beasts they hold (giant centipedes are a\nsolid choice).\n\nA ship with beast-reins doesn’t require an engine choice from the next section, but the beasts\nthemselves do require care, feeding, and sleep.</p>",
+      "type": "Вгризання"
+    },
+    "Beastback": {
+      "name": "Beastback",
+      "details": "<p>A half-living hull of flesh and bone, flexible and unsettlingly warm.</p>",
+      "type": "Корпус"
+    },
+    "Bilgecroft": {
+      "name": "Bilgecroft",
+      "details": "<p>What could be more natural than linking a ship's sewage systems to its food production systems? There's a lot to be said for recycling, after all.</p><p>Reduce the Grow tracks of the plants in this plot by one box. Anyone attempting to harvest a plant from the bilgecroft takes two marks of Toxin damage.</p>",
+      "type": "Full Gardening Solutions"
+    },
+    "Bladed Prow": {
+      "name": "Bladed Prow",
+      "details": "<p>A wedge-like cutting edge for slicing into enemy ships without danger to your own hull. Deals massive CQ Hewing damage.</p>",
+      "type": "Hull Weapons"
+    },
+    "Boarded Bed": {
+      "name": "Boarded Bed",
+      "details": "<p>If you roll to harvest plants growing within the boarded bed, treat Disasters as Conflicts instead.</p>",
+      "type": "Gardening Plots"
+    },
+    "Boiler Room": {
+      "name": "Boiler Room",
+      "details": "<p>Uses alchemical reactions to heat water, which is piped around the walls of the vessel to keep it warm in the cold of the heavens.</p>",
+      "type": "Airborne Rooms"
+    },
+    "Bolas Cannon": {
+      "name": "Bolas Cannon",
+      "details": "<p>The weighted cables fired from a bolas cannon aren't meant to tangle, as one might expect, but to slice. Deals massive LR Keen damage.</p>",
+      "type": "Airborne Armament"
+    },
+    "Bonesaw Troupe": {
+      "name": "Bonesaw Troupe",
+      "details": "<p>A single crewmember can heal a mark from any damaged trait or injury when you drop anchor.</p>",
+      "type": "Gangs"
+    },
+    "Bounding-Ropes": {
+      "name": "Bounding-Ropes",
+      "details": "<p>Used for pulling the ship across areas with wide gaps between their branches, slowly and laboriously. Capable of carrying great weights, but need to be secured to trunks and distant branches by hand.</p>",
+      "type": "General Additions"
+    },
+    "Brace of Kites": {
+      "name": "Brace of Kites",
+      "details": "<p>Swifter, but far more dangerous than other low-tech methods. The brace of kites is a complex series of sails, ropes, and canvas that can be deployed for a sudden surge of lift.</p><p>Takeoff Cost: Saws\nFlight Style: Rush, Glide</p>",
+      "type": "Lift Systems"
+    },
+    "Brig": {
+      "name": "Brig",
+      "details": "<p>A hammock. A bucket. A lockable door and a set of iron bars. The cramped conditions of most ships rarely allow for much more.</p>",
+      "type": "Common Rooms"
+    },
+    "Broadside Cannons": {
+      "name": "Broadside Cannons",
+      "details": "<p>A blast from the half-forgotten past, these banks of cannons can only fire at targets to either side of you. Deals massive LR Blunt or Blast damage</p>",
+      "type": "Hull Weapons"
+    },
+    "Broadwood": {
+      "name": "Broadwood",
+      "details": "<p>Wooden planks cut from the more reliable trees of the wildsea. Strong and flexible</p>",
+      "type": "Корпус"
+    },
+    "Brute Turbines": {
+      "name": "Brute Turbines",
+      "details": "<p>Massive outboard engines that threaten to shake a ship apart. Thirsty for fuel, and give constant thrust.</p><p>Additional Style: Rush</p>",
+      "type": "Auxiliary Lift Systems"
+    },
+    "Bulbous Gasbag": {
+      "name": "Bulbous Gasbag",
+      "details": "<p>An envelope of canvas and a unique chemical engine to fill it with a lighter-than-air mixture.</p><p>Takeoff Cost: Armour\nFlight Style: Float, Hover</p>",
+      "type": "Lift Systems"
+    },
+    "Buoyancy Tethers": {
+      "name": "Buoyancy Tethers",
+      "details": "<p>Grappling-array style hooks that are designed to latch onto floating debris. Not as effortless as an aerial anchor, but they ensure that an unattended airship doesn't drift from where it's left at all.</p>",
+      "type": "Rising Fittings"
+    },
+    "Butchery": {
+      "name": "Butchery",
+      "details": "<p>A clean space for rendering and preserving specimens.</p>",
+      "type": "Common Rooms"
+    },
+    "Butterfly Swarm": {
+      "name": "Butterfly Swarm",
+      "details": "<p>A horde of large butterflies attached by slim threads to a tether or handle, designed to be held while riding a surf-seed to allow travel without a bloomtide.</p>",
+      "type": "Bloom Surfing"
+    },
+    "Caging-Bell Station": {
+      "name": "Caging-Bell Station",
+      "details": "<p>A reinforced cage of scrap on the end of a set of winch-ropes, built into the interior of the ship using a rudimentary pressure-door system. The caging bell can be raised and lowered with internal controls.</p>",
+      "type": "Delving Rooms"
+    },
+    "Camouflage": {
+      "name": "Camouflage",
+      "details": "<p>Plus 3 Stealth when still or at anchored.</p>",
+      "type": "Outrider Fittings"
+    },
+    "Canvas Wings": {
+      "name": "Canvas Wings",
+      "details": "<p>These use lighter materials and more advanced engineering techniques than other wing attachments. Beating them for lift still takes an incredible amount of power, especially for heavier ships.</p><p>Takeoff Cost: Speed\nFlight Style: Rush, Glide, Flap</p>",
+      "type": "Lift Systems"
+    },
+    "Cargo Bay Extension": {
+      "name": "Cargo Bay Extension",
+      "details": "<p>A larger space with cargo webbing, wall racks, and reinforced sections for more dangerous items.</p>",
+      "type": "Common Rooms"
+    },
+    "Cargo Crane": {
+      "name": "Cargo Crane",
+      "details": "<p>A sturdy crane for loading and unloading cargo, capable of carrying extremely heavy objects without overbalancing the ship.</p>",
+      "type": "General Additions"
+    },
+    "Cartographers": {
+      "name": "Cartographers",
+      "details": "<p>Automatically acquire one normal chart when you drop anchor.</p>",
+      "type": "Gangs"
+    },
+    "Carven Bands": {
+      "name": "Carven Bands",
+      "details": "<p>Made to slide up from the edges of the ship and interlock above the deck, the broadwood of each band is both flexible and resilient.</p>",
+      "type": "Pressure Shells"
+    },
+    "Casino Hub": {
+      "name": "Casino Hub",
+      "details": "<p>Outfitted with stools, cards and fold-away tables, enabling crew to play a range of chance-based games from far-off reaches.</p>",
+      "type": "Airborne Rooms"
+    },
+    "Catalyst Jets": {
+      "name": "Catalyst Jets",
+      "details": "<p>The mechanics behind these are simple, but the chemicals and hull reinforcements required are anything but. Known for venting scalding exhaust in their wake.</p><p>Takeoff Cost: Seals\nFlight Style: Rush, Soar\nCan deal massive CQ Flame or Acid damage, but without the chance of fire spreading.</p>",
+      "type": "Lift Systems"
+    },
+    "Catalyst Pump": {
+      "name": "Catalyst Pump",
+      "details": "<p>Increases pressure within the ship to match the pressure on the exterior. Unpleasant, long-term, but effective.</p>",
+      "type": "Scrubbers"
+    },
+    "Catapult Track": {
+      "name": "Catapult Track",
+      "details": "<p>A spring-loaded section of deck used for catapulting outriders onto the waves at speed. Great for taking other ships by surprise, but the logistics of reloading an outrider for another launch are... tricky.</p>",
+      "type": "Launching and Docking"
+    },
+    "Catastrophapult": {
+      "name": "Catastrophapult",
+      "details": "<p>A forked deck-weapon that fires axehead-shaped projectiles using springs and stored tension. Deals massive LR Hewing damage.</p>",
+      "type": "Airborne Armament"
+    },
+    "Caterpillar Treads": {
+      "name": "Caterpillar Treads",
+      "details": "<p>Allows you to move again after dropping anchor (in Dimm's Embrace) without cutting or losing impact.</p>",
+      "type": "Вгризання"
+    },
+    "Centimulch": {
+      "name": "Centimulch",
+      "details": "<p>When you sow a mushroom, moss, or predatory plant in centimulch, mark one box on its track immediately.</p>",
+      "type": "Gardening Mediums"
+    },
+    "Ceramic": {
+      "name": "Ceramic",
+      "details": "<p>A shell of heavy baked clay. Ostentatious and brittle unless very carefully maintained.</p>",
+      "type": "Корпус"
+    },
+    "Ceramic Batteries": {
+      "name": "Ceramic Batteries",
+      "details": "<p>Volt-storing batteries rigged up to regulate and distribute power. Their crackling hum makes nearby insects (and superstitious undercrew) uneasy.</p><p>Fuelled with lightning strikes.</p>",
+      "type": "Двигун"
+    },
+    "Ceramic Pots": {
+      "name": "Ceramic Pots",
+      "details": "<p>Specimens harvested from ceramic pots gain an additional positive tag at time of harvesting (supplied by the Firefly).</p>",
+      "type": "Gardening Plots"
+    },
+    "Chainwheels": {
+      "name": "Chainwheels",
+      "details": "<p>Contraptions of rough leather and sturdy chain, perfect for rolling over snow drifts.</p><p>Can tackle winter snows without cutting.\nDeals massive CQ Blunt damage.</p>",
+      "type": "Вгризання"
+    },
+    "Chalk Outline": {
+      "name": "Chalk Outline",
+      "details": "<p>Any storm, rough travel, or damage to the ship has a chance of damaging or destroying the plot entirely. Roll a d6 - on a 6 it's fine, on a 5 or 4 the plants within are damaged, on a 3, 2 or 1 the entire plot is destroyed.</p>",
+      "type": "Gardening Plots"
+    },
+    "Channeling Sail": {
+      "name": "Channeling Sail",
+      "details": "<p>Known for providing a burst of lift on takeoff and little more besides that, the bones of the kite-like sail's frame needs frequent repairs.</p><p>Takeoff Cost: Speed +Armour\nFlight Style: Rush, Glide</p>",
+      "type": "Lift Systems"
+    },
+    "Charcoal Rattlevents": {
+      "name": "Charcoal Rattlevents",
+      "details": "<p>A system of air vents and mechanical filters, powered by the engine. Finally, a use for charcoal!</p><p>Ship interior resists bad air and drifting spores</p>",
+      "type": "Scrubbers"
+    },
+    "Chattergulls": {
+      "name": "Chattergulls",
+      "details": "<p>Avian messengers with remarkable sound-mimicking abilities, used to transmit messages between airships.</p>",
+      "type": "Rising Beast Packs"
+    },
+    "Chemical Compressor": {
+      "name": "Chemical Compressor",
+      "details": "<p>The most common engine on the rustling waves, reliably unreliable but extremely easy to fuel.</p><p>Fuelled with crushed fruit and insect husks.</p>",
+      "type": "Двигун"
+    },
+    "Chemical Spotlight": {
+      "name": "Chemical Spotlight",
+      "details": "<p>Illuminates surrounding areas with day-like clarity.</p>",
+      "type": "General Additions"
+    },
+    "Chemical Spray": {
+      "name": "Chemical Spray",
+      "details": "<p>Better doused in noxious alchemical solutions of unknown and unsettling origin than crezzerin. Probably.</p><p>Crew that have time to douse themselves before leaving the ship at depth gain a temporary 2-track benefit, Soaked, which gives crezzerin resistance.</p>",
+      "type": "Delving Equipment"
+    },
+    "Chemicowork Rockets": {
+      "name": "Chemicowork Rockets",
+      "details": "<p>Both baffler an makeshift weapon, these carefully packed rockets burst with colourful chemical spray.</p><p>Optimal Use: Fire at night to clear a burn from any predator-based eye.\nAlternate Use: Fire for a single burst of Massive LR Acid damage.</p>",
+      "type": "Bafflers"
+    },
+    "Chitin Segmento": {
+      "name": "Chitin Segmento",
+      "details": "<p>Nowhere near as effective as its iron counterpart at resisting damage, the chitin segmento is still popular among submariners thanks to the innate ability of its semi-living plating to push back against the depths.</p><p>Deck area benefits from ship's interior resistances</p>",
+      "type": "Pressure Shells"
+    },
+    "Chitinous": {
+      "name": "Chitinous",
+      "details": "<p>Made from the collected shells of the wildsea’s larger insects. Smooth, offering little in the way of friction or snags.</p>",
+      "type": "Корпус"
+    },
+    "Chitinous Mix": {
+      "name": "Chitinous Mix",
+      "details": "<p>When you sow a flower, grass, or wheat in a chitinous mix, mark one box on its track immediately.</p>",
+      "type": "Gardening Mediums"
+    },
+    "Chittering Cloak": {
+      "name": "Chittering Cloak",
+      "details": "<p>Your hull is a hotbed of insectile symbiosis, thousands of chitinous bodies and translucent wings sprouting from wood and iron.</p><p>Takeoff Cost: None\nFlight Style: Float, Flap\nReduce cut by one on aerial stunts performed while within mist, fog, or sporeclouds.</p>",
+      "type": "Lift Systems"
+    },
+    "Chopper": {
+      "name": "Chopper",
+      "details": "<p>Brutish and noisy, choppers are designed to cut their way through the toughest wildsea vegetation.</p>",
+      "type": "Outrider Chassis"
+    },
+    "Chopper's Offal": {
+      "name": "Chopper's Offal",
+      "details": "<p>When you sow a nut or narcotic in chopper's offal, mark one box on its track immediately.</p>",
+      "type": "Gardening Mediums"
+    },
+    "Chrysalid": {
+      "name": "Chrysalid",
+      "details": "<p>A hull adapted from the cast-off chrysalis of a massive insect, excellent protection against the sea’s incursion.</p>",
+      "type": "Корпус"
+    },
+    "Clatterweb Spiders": {
+      "name": "Clatterweb Spiders",
+      "details": "<p>When at anchor (or otherwise still) the spiders spin webs around the ship, giving early warning if hazards approach.</p>",
+      "type": "Insect Packs"
+    },
+    "Cobra Cluster": {
+      "name": "Cobra Cluster",
+      "details": "<p>The scattering of high-velocity explosives may lack the punch to injure leviathans, but can put pain to just about anything else. Deals high-impact LR Blast or Acid damage to all targets in a small area.</p>",
+      "type": "Airborne Armament"
+    },
+    "Colourful Flags": {
+      "name": "Colourful Flags",
+      "details": "<p>More likely to draw attention than dispel it, some aeronauts nevertheless swear by the things</p><p>Alternate Use: A single message in signalling can be sent at extreme ranges that wouldn't normally be possible.</p>",
+      "type": "Bafflers"
+    },
+    "Compact Parachute Stock": {
+      "name": "Compact Parachute Stock",
+      "details": "<p>A less flexible but more reliable version of the wingsuit, allowing a crewmember to safely drift down towards the waves after a jump or fall.</p><p>Crew that have time to don a compact parachute before leaving the ship at heights gain a temporary 3-track benefit, Parachute (this can turn a lethal fall into a controlled descent). The parachute must be re-packed with a task before being used again.</p>",
+      "type": "Aeronaut Equipment"
+    },
+    "Cooling Facility": {
+      "name": "Cooling Facility",
+      "details": "<p>An insulated room where breath mists in the air, perfect for storing perishables and escaping the sun's glare.</p>",
+      "type": "Common Rooms"
+    },
+    "Copper Eaveskettle": {
+      "name": "Copper Eaveskettle",
+      "details": "<p>Containing a constantly boiling mixture of herbs, spices, and searing alchemical liquids, the oversized kettle can be tilted to release pressurized jets of scalding steam. Deals massive LR Flame damage. The steam never sets things aflame, despite the intense temperatures.</p>",
+      "type": "Delving Armament"
+    },
+    "Copper Feathers": {
+      "name": "Copper Feathers",
+      "details": "<p>Whether attached to an existing set of wings or simply welded to the hull, these carefully sculpted feathers allow ships to skim through the clouds for league after league.</p><p>Additional Style: Glide</p>",
+      "type": "Auxiliary Lift Systems"
+    },
+    "Copper-Fox Flags": {
+      "name": "Copper-Fox Flags",
+      "details": "<p>Finely made mimics on the end of insulated poles, the wax-sealed fabric and metallic edging of these fake spring-foxes draws the ire of a living storm's lightning away from the more exposed areas of a ship.</p><p>Optimal Use: Extend at the right moment to  frustrate a lightning-strike, clearing a burn from any weather-based eye.\nAlternate Use: Keep a ship safe from non-living storms, or charge ceramic batteries.</p>",
+      "type": "Bafflers"
+    },
+    "Coughing Pitcher": {
+      "name": "Coughing Pitcher",
+      "details": "<p>Technically doesn't stop the bugs coming in, just ensures they don't live long enough for an infestation to begin.</p><p>Ship interior resists insect incursions</p>",
+      "type": "Scrubbers"
+    },
+    "Crawler": {
+      "name": "Crawler",
+      "details": "<p>Large finger-like mechanisms spread out around the front of the ship, allowing it to move through the waves with a crawling motion.</p><p>Deals Massive CQ Blunt damage</p>",
+      "type": "Вгризання"
+    },
+    "Crezzercannon": {
+      "name": "Crezzercannon",
+      "details": "<p>Trying to grow things the old fashioned way? May as well get some use out of all that excess crezzerin... Deals massive LR Toxin damage.</p>",
+      "type": "Garden Armament"
+    },
+    "Crezzimenea": {
+      "name": "Crezzimenea",
+      "details": "<p>Bulbous constructions of metal and clay with stovepipe tops and multiple hatches, filled with crezzer-soaked mulch and specially bred beetles.</p><p>Duplicate hybridization results add a new tag to the plant, copied from any existing resource on any member of the crew.</p>",
+      "type": "Hybrid Gardening Plots"
+    },
+    "Cruel Greetings": {
+      "name": "Cruel Greetings",
+      "details": "<p>There's very rarely a second chance to say hello. Reduce cut on attacks against ships and structures by one.</p>",
+      "type": "Torpedo Launcher"
+    },
+    "Cumulus Cabling": {
+      "name": "Cumulus Cabling",
+      "details": "<p>Operating on the same alchemical principles as cloudwire, firing slim filaments high into the air that pull the ship along for the ride as they seek out water vapour.</p><p>Takeoff Cost: Tilt\nFlight Style: Float, Hover, Soar\nOnly functions when the ship has a direct sightline to the clouds</p>",
+      "type": "Lift Systems"
+    },
+    "Cumulus Hen Hutch": {
+      "name": "Cumulus Hen Hutch",
+      "details": "<p>Cumulus hens are uneasy at canopy-level, beginning their egg-laying process only when above the clouds. Once per journey (if you've ascended high enough), gain 'Fresh Cumulus Eggs' as a specimen.</p>",
+      "type": "Rising Fittings"
+    },
+    "Cupola": {
+      "name": "Cupola",
+      "details": "<p>A blister of glass or amber, usually at the side or rear of the ship, with a small seat inside.</p>",
+      "type": "External Structures"
+    },
+    "Dandelion Cluster": {
+      "name": "Dandelion Cluster",
+      "details": "<p>Large, fluffy seed clusters that catch the wind, their roots coaxed into latching around the strongest sections of a ship. While not reliable in terms of timing, these massive dandelion clusters lift a ship with worrying ease.</p><p>Takeoff Cost: None\nFlight Style:: Float, Hover\nYou can only take to the air in favourable wind conditions, or with the aid of thermals.</p>",
+      "type": "Lift Systems"
+    },
+    "Deck Engineers": {
+      "name": "Deck Engineers",
+      "details": "<p>Automatically clear one mark from any damaged ship’s rating when you drop anchor.</p>",
+      "type": "Gangs"
+    },
+    "Deckside Shed": {
+      "name": "Deckside Shed",
+      "details": "<p>Even more cluttered than the average workshop, sheds come stocked with a variety of simple tools for the maintenance and preparation of ship-garden plots.</p>",
+      "type": "Ship Gardens"
+    },
+    "Deep-Delving": {
+      "name": "Deep-Delving",
+      "details": "<p>No crew travels the depths with regularity without a good reason, or so one would hope.</p><ul><li><p>Superstitious markings over the hull, and charms to ward off leviathans (of dubious effectiveness)</p></li><li><p>Honeypot vents to draw insects away from doorways and portholes</p></li><li><p>An array of wilds-clearing tools, allowing crew on or below deck easy access to Hewing or Serrated damage</p></li></ul>",
+      "type": "Motif"
+    },
+    "Delve-Seers": {
+      "name": "Delve-Seers",
+      "details": "<p>You may burn this gang's track to reduce the number of marks on your Pressure Gauge by 1d6.</p>",
+      "type": "Delving Gangs"
+    },
+    "Docking Crane": {
+      "name": "Docking Crane",
+      "details": "<p>A method of launching outriders, usually from a ship's deck. Can also retrieve outriders directly from the waves.</p>",
+      "type": "Launching and Docking"
+    },
+    "Donatza": {
+      "name": "Donatza",
+      "details": "<p>Droning dragonfly-like insects. Their usually restless activity slows in the presence of larger aerial predators.</p>",
+      "type": "Rising Insect Packs"
+    },
+    "Doomed Trio": {
+      "name": "Doomed Trio",
+      "details": "<p>Whenever one of your crew would be hit by a negative Pressure effect, you may burn a box on the doomed trio's track to have them suffer it instead.</p>",
+      "type": "Delving Gangs"
+    },
+    "Drag Barge": {
+      "name": "Drag Barge",
+      "details": "<p>A barge's distance from the main ship means that hazards or adverse conditions affecting the deck don't necessarily affect the barge, and vice versa.</p>",
+      "type": "Gardening Plots"
+    },
+    "Dragon-Tail Butterflies": {
+      "name": "Dragon-Tail Butterflies",
+      "details": "<p>Butterflies with beautiful, elongated wings. Don’t do anything useful, but are regarded by many as a goodluck charm.</p>",
+      "type": "Insect Packs"
+    },
+    "Draketongue": {
+      "name": "Draketongue",
+      "details": "<p>A pressurized flamethrower that breaks all conventions of logic, decency and common sense. Deals massive LR Flame damage. Treat Triumphs as Conflicts when firing - This will cause more problems than it solves</p>",
+      "type": "Deck Weapons"
+    },
+    "Driftsail": {
+      "name": "Driftsail",
+      "details": "<p>A near-invisible sail woven from the ghosts of old canvas. Ripples and billows in the presence of spirits.</p><p>Only effective in areas of dense spiritual presence</p>",
+      "type": "Вгризання"
+    },
+    "Drownberry Bush": {
+      "name": "Drownberry Bush",
+      "details": "<p>Though they refuse to produce anything edible under most conditions, when they do it's worth the wait. Once per journey (if you've descended to the drown), gain 'Medicinal Drownberries' as a specimen.</p>",
+      "type": "Delving Additions"
+    },
+    "Echo Machine": {
+      "name": "Echo Machine",
+      "details": "<p>A sonar-like device used for finding reefs, sunken ruins, and hidden ships. Effective use while travelling requires a member of the crew to operate and monitor it, but they gain murksight for the duration (the ability to see clearly through sporeclouds and gaseous obstructions).</p>",
+      "type": "Delving Additions"
+    },
+    "Electric Trailblazer": {
+      "name": "Electric Trailblazer",
+      "details": "<p>Stored lightning is released slowly as the ship travels, in just enough volume to set branches crackling and snaps of power arcing between leaves in your wake. Ignore cut on ratings rolls imposed by the ship being harried or pursued.</p>",
+      "type": "Light, Power, & Sound"
+    },
+    "Emergency Tool Rack": {
+      "name": "Emergency Tool Rack",
+      "details": "<p>Jagserries and sabres are all very well, but the challenges of the underthrash are varied and rarely expected.</p><p>When preparing for a delve, each member of the crew can take a temporary 3-track benefit, Depth Tool. The tool deals either CQ Serrated, Hewing, Acid, or Volt damage, chosen when it is gained.</p>",
+      "type": "Delving Equipment"
+    },
+    "Entertainment": {
+      "name": "Entertainment",
+      "details": "<ul><li><p>A gaudy appearance that catches the eye.</p></li><li><p>A theatrical stage built into the main deck.</p></li><li><p>Costuming supplies for the representation of various creeds and characters.</p></li></ul>",
+      "type": "Motif"
+    },
+    "Etterescu": {
+      "name": "Etterescu",
+      "details": "<p>Automatically acquire one normal whisper when you dock at port.</p>",
+      "type": "Insect Packs"
+    },
+    "Exile's Copper": {
+      "name": "Exile's Copper",
+      "details": "<p>A rare metal that weighs far, far less than it has any right to, prized for racing-ship hulls.</p>",
+      "type": "Корпус"
+    },
+    "Experienced Officer": {
+      "name": "Experienced Officer",
+      "details": "<ul><li><p>Any one aspect</p></li><li><p>An experienced officer's track is equal to the track of the aspect they have access to</p></li></ul>",
+      "type": "Officer"
+    },
+    "Extra Portholes": {
+      "name": "Extra Portholes",
+      "details": "<p>A blessing and a curse, these allow crew to stay safe inside their ship while getting a good view of the depths that surround them, but curious predators are sometimes drawn to the light they shed.</p>",
+      "type": "Delving Additions"
+    },
+    "False Clouds": {
+      "name": "False Clouds",
+      "details": "<p>Usually produced alchemically, a false cloud wreathes the ship in atmospheric vapours to make it far harder to visually track. Real clouds can tell the difference though.</p><p>Optimal Use: Deploy to clear a burn from any Eye tracking the ship from below the clouds.\nAlternate Use: Changing the chemical mixtures used can have unusual, and harmful, results. Instead of clearing an Eye, the false clouds can create a patch of bad air on deck that lasts for the duration of a scene.</p>",
+      "type": "Bafflers"
+    },
+    "Feather-Scale": {
+      "name": "Feather-Scale",
+      "details": "<p>Interlocking feathers tightly thatched together, capable of flexing with and adapting to the wind but still sturdy and resistant to outer damage.</p><p>Increase impact when performing aerial manoeuvres</p>",
+      "type": "Корпус"
+    },
+    "Ferrogranate Tree": {
+      "name": "Ferrogranate Tree",
+      "details": "<p>One of the most popular on-deck arborist choices, the fruits produced by a ferrogranate tree are almost entirely inedible, but their plentiful seeds are naturally magnetically charged. Once per journey, gain 'Handful of Ferrogranate Seeds' or 'Ferrogranate Iron-Rind' as a specimen.</p>",
+      "type": "Rising Fittings"
+    },
+    "Firefly Cloud": {
+      "name": "Firefly Cloud",
+      "details": "<p>Kept in pitch-blackened jars with their tops wired together, a single pull on the relevant lever fills the air around the ship with a cloud of fireflies. They do come back eventually, if they're well trained (and they survive their explosive exodus).</p><p>Optimal Use: Fire to clear a burn from any insectivore predator-based eye.\nAlternate Use: The fireflies swarm a foe, distracting and reducing vision until end of scene.</p>",
+      "type": "Bafflers"
+    },
+    "Firefly Lanterns": {
+      "name": "Firefly Lanterns",
+      "details": "<p>A network of lanterns, their glowing inhabitants woken or sent to sleep with a tap on the glass, ready to illuminate any part of the ship.</p>",
+      "type": "General Additions"
+    },
+    "Fixed-Band Radio": {
+      "name": "Fixed-Band Radio",
+      "details": "<p>A short-range radio system capable of sending and receiving static-laden signals, based on recently rediscovered pre-verdant technology. Allows instantaneous communication, but relies on fragile antennae affixed to the uppermost portion of the ship.</p>",
+      "type": "General Additions"
+    },
+    "Flatbed": {
+      "name": "Flatbed",
+      "details": "<p>Allows you carry a small number of crew or pieces of cargo.</p>",
+      "type": "Outrider Fittings"
+    },
+    "Flexible": {
+      "name": "Flexible",
+      "details": "<p>Built for adjustability and responsiveness, flexible frames are often multi-segmented or jointed in some way.</p>",
+      "type": "Рама"
+    },
+    "Flexing Canvas": {
+      "name": "Flexing Canvas",
+      "details": "<p>A sheet of old airship canvas mingled with restless whispers, tied to springs and pulleys to take advantage of its constant but erratic movement.</p><p>Fuelled with the dropped syllables of the crew's mumbled secrets</p>",
+      "type": "Двигун"
+    },
+    "Floatnut Husk": {
+      "name": "Floatnut Husk",
+      "details": "<p>Though the ironroots these hail from have never actually been found, their efficacy as a natural route to air travel is beyond question.</p><p>Takeoff Cost: None\nFlight Style: Float, Glide\nOnly allow takeoff from the waves, and sit inert when within the confines of a highport.</p>",
+      "type": "Lift Systems"
+    },
+    "Floraflage": {
+      "name": "Floraflage",
+      "details": "<p>A hull of living vegetation grown purposefully around your frame. Blends easily into the seascape.</p><p>Increase Impact when using Stealth motionless.</p>",
+      "type": "Корпус"
+    },
+    "Fluting-Bones": {
+      "name": "Fluting-Bones",
+      "details": "<p>Adapted from the aerodynamic structures displayed by countless wildsea sky-beasts. Ignore the negative effects of strong or unpredictable winds while flying or gliding (positive effects still benefit you as normal).</p>",
+      "type": "Rising Fittings"
+    },
+    "Focusing Amber": {
+      "name": "Focusing Amber",
+      "details": "<p>A screen of delicate amber placed in front of the pilot's controls, with various bubbles and magnifying lenses built into it. Allows the pilot at the controls  to benefit from Hawksight, the ability to see further than most and in much greater detail.</p>",
+      "type": "Rising Fittings"
+    },
+    "Fractal Pseudojaw": {
+      "name": "Fractal Pseudojaw",
+      "details": "<p>Taken from an inherently arconautic beast of considerable size, the teeth of the fractal pseudojaw dig into more than flesh and wood when they bite down. Deals massive CQ Spike damage. You may mark one of your ratings on a successful attack to reduce a bitten target's immunity or resistance to a single type of damage by one step.</p>",
+      "type": "Delving Armament"
+    },
+    "Frenzy-Parrot": {
+      "name": "Frenzy-Parrot",
+      "details": "<p>Possessed of a shrill and annoying squawk, but tolerated as an early warning system for dangerous predators roaming nearby.</p>",
+      "type": "Beast Packs"
+    },
+    "Fruiting Tree": {
+      "name": "Fruiting Tree",
+      "details": "<p>An ancient tree rooted to your deck, laden with fast growing fruit. \nAutomatically acquire a fruit-based specimen when you use a task to tend to the fruiting tree.</p>",
+      "type": "Bounteous Additions"
+    },
+    "Full Nautilization": {
+      "name": "Full Nautilization",
+      "details": "<p>This is a complete refit of every system, every inch of frame, every plank of wood and piece of stolen scrap to make the ship's interior a fortress against the dangers of the depths.</p><p>Ship interior is immune to bad air, drifting spores, insect incursions, and wandering spirits</p>",
+      "type": "Scrubbers"
+    },
+    "Galley": {
+      "name": "Galley",
+      "details": "<p>A space for gathering, cooking, and eating, filled with pans, cookware, and usually a chemical stove.</p>",
+      "type": "Common Rooms"
+    },
+    "Gargoyle Toads": {
+      "name": "Gargoyle Toads",
+      "details": "<p>Clay baked and shaped with arconautic puissance, the unseen tongues of these immobile open-mouthed decorations snake through the air to gather and neutralize drifting spores.</p><p>Ship interior is immune to drifting spores</p>",
+      "type": "Scrubbers"
+    },
+    "Gas-Grub Nest": {
+      "name": "Gas-Grub Nest",
+      "details": "<p>Portly and squeaking, these grubs produce a lighter-than-air gas as a natural byproduct of their digestion. Once per journey (if you have an appropriate container for it), gain 'Canister of Lifting Gas' as a piece of salvage.</p>",
+      "type": "Rising Fittings"
+    },
+    "Gecko Sails": {
+      "name": "Gecko Sails",
+      "details": "<p>A reinforced multi-sail arrangement designed to tame even the wildest gusts.</p><p>Only effective in favourable winds.</p>",
+      "type": "Вгризання"
+    },
+    "Geckopads": {
+      "name": "Geckopads",
+      "details": "<p>Mechanical legs with gecko-like pads at their tips, designed to firmly grip branches while holding your ship aloft (or below).</p><p>The ship never has to cut for movement made to traverse thin or brittle branches\nDeals massive CQ Blunt damage</p>",
+      "type": "Вгризання"
+    },
+    "Geist Octopus": {
+      "name": "Geist Octopus",
+      "details": "<p>Once per journey, the geist octopus allows a single crewmember to roll 6d6 in place of their usual dice pool on any task it could conceivably help with.</p>",
+      "type": "Beast Packs"
+    },
+    "Ghost Spikes": {
+      "name": "Ghost Spikes",
+      "details": "<p>A set of spirit anchors sunk into the outer hull, each one tied to the sould of a lost aeronaut. The ghosts are fragile, but they thrill at the open skies.</p><p>Additional Style: Hover</p>",
+      "type": "Auxiliary Lift Systems"
+    },
+    "Ghost-Oak": {
+      "name": "Ghost-Oak",
+      "details": "<p>Pale as death and remarkably flexible, ghost-oak is rarely found growing outside the lightless depths of the drown.</p>",
+      "type": "Корпус"
+    },
+    "Glass-Shell Snails": {
+      "name": "Glass-Shell Snails",
+      "details": "<p>Crews with glass-shell snails on board learn to tread lightly, especially at night.</p>",
+      "type": "Insect Packs"
+    },
+    "Glowbug Gastronomers": {
+      "name": "Glowbug Gastronomers",
+      "details": "<p>Once per journey, the glowbug gastronomers will settle on an edible specimen with a positive tag near the ship (supplied by the firefly).</p>",
+      "type": "Delving Insect Packs"
+    },
+    "Glowbug Parade": {
+      "name": "Glowbug Parade",
+      "details": "<p>Gives all crew members their own dim lantern-like light while they're on the ship (unless shooed away).</p>",
+      "type": "Insect Packs"
+    },
+    "Golden Ladybugs": {
+      "name": "Golden Ladybugs",
+      "details": "<p>All of your plots have resistance to weeds.</p>",
+      "type": "Gardening Packs"
+    },
+    "Graft Engine": {
+      "name": "Graft Engine",
+      "details": "<p>A complicated piece of machinery with many amberglass chambers, filled with alchemical growing solutions pumped from place to place through leaf-rubber tubing.</p><p>Duplicate hybridization results each fill a box on the resulting plant's Grow track, kickstarting its journey towards harvesting.</p>",
+      "type": "Hybrid Gardening Plots"
+    },
+    "Grand Blastbow": {
+      "name": "Grand Blastbow",
+      "details": "<p>A crossbow-like emplacement that fires explosive bolts. Deals massive LR Blast damage.</p>",
+      "type": "Deck Weapons"
+    },
+    "Grand Complicado": {
+      "name": "Grand Complicado",
+      "details": "<ul><li><p>Any one complex aspect.</p></li><li><p>A grand complicado's track is equal to the track of the aspect they have access to, plus two more boxes.</p></li></ul>",
+      "type": "Delving Officer"
+    },
+    "Grappling Array": {
+      "name": "Grappling Array",
+      "details": "<p>Prow-mounted grappling hooks that are fired out to catch on branches and then laboriously wound back in for slow, inexorable progress.</p><p>A ship running solely on a grappling array can’t Forge Ahead during a journey.\n\nDeals massive LR Spike damage.</p>",
+      "type": "Вгризання"
+    },
+    "Grave Figurehead": {
+      "name": "Grave Figurehead",
+      "details": "<p>The figurehead's carvings are carefully designed to have a mesmeric effect on the nearly-lost. Automatically acquire a spirit-based resource when you move through an area of dense phantasmal presence or encounter wandering spirits.</p>",
+      "type": "Delving Additions"
+    },
+    "Greenthumbs": {
+      "name": "Greenthumbs",
+      "details": "<p>Adding seeds to a ship-garden plot doesn't use a task.</p>",
+      "type": "Gardening Gangs"
+    },
+    "Ground Whispers": {
+      "name": "Ground Whispers",
+      "details": "<p>When any member of the crew furthers or satisfies a drive, mark the tracks of all plants sown in ground whispers. That is the only way to mark the tracks of such plants.</p>",
+      "type": "Gardening Mediums"
+    },
+    "Hakebasu's Spear": {
+      "name": "Hakebasu's Spear",
+      "details": "<p>A glowing conductive wire attached to a tiny grasping hook, shots with the spear seem to do little damage until the built-in ceramic batteries are fully activated. Deals massive LR Volt damage. Reduce cut if fired in pitch darkness.</p>",
+      "type": "Delving Armament"
+    },
+    "Harpoon Turret": {
+      "name": "Harpoon Turret",
+      "details": "<p>Fires barbed spears for piercing the hulls of ships and the hides of larger creatures. Deals massive LR Spike damage.</p>",
+      "type": "Deck Weapons"
+    },
+    "Hauling": {
+      "name": "Hauling",
+      "details": "<ul><li><p>Gangplanks, winches, and bay doors for swift loading and unloading at port</p></li><li><p>An expanded cargo area with extra security and webbing for odd-shaped packages</p></li><li><p>A reliable cargo crane built into the ship's structure for holding and transporting particularly heavy crates and objects</p></li></ul>",
+      "type": "Motif"
+    },
+    "Hawks-Eye Moth": {
+      "name": "Hawks-Eye Moth",
+      "details": "<p>A moth the size of a large dog, whose wing patterning stare outward to confuse and intimidate potential predators... including the ever-hungry sky. Reduce cut by one when trying to resist the effects of Scrutiny while near a ship's hawks-eye moth.</p>",
+      "type": "Rising Insect Packs"
+    },
+    "Heart-Seeker": {
+      "name": "Heart-Seeker",
+      "details": "<p>Loaded with living shells that hunger for glory far beyond their means. Reduce cut on attacks against leviathans and protoleviathans by one.</p>",
+      "type": "Torpedo Launcher"
+    },
+    "Heaven-Hewn Carving": {
+      "name": "Heaven-Hewn Carving",
+      "details": "<p>The details of the carving are incidental - the true power lies in the origin of the stone, mined from a floating island or stolen from a crumbling aerial temple.</p><p>Takeoff Cost: Speed\nFlight Style: Float, Hover, Glide</p>",
+      "type": "Lift Systems"
+    },
+    "Helioweaver": {
+      "name": "Helioweaver",
+      "details": "<p>An arconautic marvel that briefly braids and crystallizes sunlight, riding the resulting shimmer like a rail.</p><p>Takeoff Cost: Saws\nFlight Style: Rush, Soar\nOnly functions when the ship is in direct sunlight</p>",
+      "type": "Lift Systems"
+    },
+    "Hewn Amber": {
+      "name": "Hewn Amber",
+      "details": "<p>Cut and shaped from massive chunks of hardened ironroot resin, this hull material is prized for its golden glow but is an absolute bastard to repair without the aid of a lowport drydock.</p>",
+      "type": "Корпус"
+    },
+    "Hollow Beast Skull": {
+      "name": "Hollow Beast Skull",
+      "details": "<p>All plants grown within a beast skull are immune to predation from beasts (but not insects).</p>",
+      "type": "Gardening Plots"
+    },
+    "Hollowtooth Array": {
+      "name": "Hollowtooth Array",
+      "details": "<p>Ringing the ship's deck like they would a leviathan's lower jaw, the gas-filled nature of these fangs does little to quiet the discomforted murmurs of the undercrew.</p><p>Takeoff Cost: Saws\nFlight Style: Float, Rush, Hover, Glide\nReduce cut by one on aerial stunts performed while harried or pursued by an aerial threat.</p>",
+      "type": "Lift Systems"
+    },
+    "Hood-Willow": {
+      "name": "Hood-Willow",
+      "details": "<p>A tree growing from the deck itself, some quirk of plant biology leaves the hood-willow extremely protective of the space beneath its branches.</p>",
+      "type": "Pressure Shells"
+    },
+    "Howling Scarecrow": {
+      "name": "Howling Scarecrow",
+      "details": "<ul><li><p>All of your plots have resistance to predation from beasts</p></li></ul>",
+      "type": "Gardening Officer"
+    },
+    "Hull Clamps": {
+      "name": "Hull Clamps",
+      "details": "<p>A set of docking clamps on the outside of the ship to hold an outrider in place, most often used for holding life rafts and small transport skippers.</p>",
+      "type": "Launching and Docking"
+    },
+    "Hullbreaker Wings": {
+      "name": "Hullbreaker Wings",
+      "details": "<p>Don't let the disarming honesty of their name fool you; there are far better choices than these creaking mechanical deathtraps.</p><p>Takeoff Cost: Speed + Seals\nFlight Style: Rush, Flap</p>",
+      "type": "Lift Systems"
+    },
+    "Hunter's Anchor": {
+      "name": "Hunter's Anchor",
+      "details": "<p>Each massive bolt launched from this crossbow is attached to a chain wound around the ship's frame. Deals massive LR Spike damage. You may mark one of your ratings to tether a target hit by the hunter's anchor to your ship, forcing it to break free before it can flee (or pull you with it as it moves, if it's strong enough).</p>",
+      "type": "Delving Armament"
+    },
+    "Hunting": {
+      "name": "Hunting",
+      "details": "<ul><li><p>Trophies of bone, fur, or chitin prominently displayed on the outer hull.</p></li><li><p>A modified cargo area complete with animal pens.</p></li><li><p>An array of hunting and butchery tools, allowing crew fighting on or below decks easy access to CQ Keen or Spike damage.</p></li></ul>",
+      "type": "Motif"
+    },
+    "Husk-Scale": {
+      "name": "Husk-Scale",
+      "details": "<p>A flexible, organic hull material made from alchemically altered fruits and mushrooms.</p><p>Damage to a ship's Armour and Seals ratings can be repaired using garden-grown specimens, rather than the usual salvage required.</p>",
+      "type": "Корпус"
+    },
+    "Hydroponics Nook": {
+      "name": "Hydroponics Nook",
+      "details": "<p>When you sow a plant in a hydroponics nook, mark the first box on its track immediately.</p>",
+      "type": "Gardening Plots"
+    },
+    "Icteric Shale": {
+      "name": "Icteric Shale",
+      "details": "<p>When you sow a herb, spice, or succulent in icteric shale, mark one box on its track immediately.</p>",
+      "type": "Gardening Mediums"
+    },
+    "Impellers": {
+      "name": "Impellers",
+      "details": "<p>Large jet-like outboard engines that push the ship through the waves with brute force.</p><p>Deals Massive CQ Serrated damage</p>",
+      "type": "Вгризання"
+    },
+    "Internal Seed Bank": {
+      "name": "Internal Seed Bank",
+      "details": "<p>A room not only dedicated to safely storing seeds, but to leaching them of crezzerin contamination through painfully slow but reliable methods used by generations of parasite farmers.</p><p>At the beginning of a journey, choose a single set of seeds with the Wild or Rampant tag. At the end of the journey, those seeds lose their original tag and gain the Parasite tag instead.</p>",
+      "type": "Ship Gardens"
+    },
+    "Iris Under-Bay": {
+      "name": "Iris Under-Bay",
+      "details": "<p>An airlock-type room usually found at the base of a ship, complete with a sliding door arrangement for easy ingress and egress.</p>",
+      "type": "Airborne Rooms"
+    },
+    "Ironshard Sail": {
+      "name": "Ironshard Sail",
+      "details": "<p>A shard of old-world iron, usually split into two side-mounted runners. Channeled voltaic current causes them to react to distant metals to lift the ship.</p><p>Takeoff Cost: Tilt\nFlight Style: Float, Hover, Soar\nReduce cut by one on aerial stunts performed in strong or known magnetic fields</p>",
+      "type": "Lift Systems"
+    },
+    "Ironsprig": {
+      "name": "Ironsprig",
+      "details": "<p>Finishing a journey marks two boxes on plants grafted to an ironsprig (rather than the usual one).</p>",
+      "type": "Gardening Mediums"
+    },
+    "Irrigation Array": {
+      "name": "Irrigation Array",
+      "details": "<p>The observant might suggest that this is little more than a series of buckets and pipes jumbled together with leaf-rubber seals. And they'd be right.</p><p>Arid conditions don't negatively affect plant growth within the ship-garden (unless they last for multiple journeys in a row without access to water).</p>",
+      "type": "Ship Gardens"
+    },
+    "Jag-Tracks": {
+      "name": "Jag-Tracks",
+      "details": "<p>Motorised grapple tracks along the keel and hull-sides; a slow, solid, and reliable choice.</p><p>Deals massive CQ Hewing damage</p>",
+      "type": "Вгризання"
+    },
+    "Jawbox": {
+      "name": "Jawbox",
+      "details": "<p>Noisy, wood-fuelled engines that create huge clouds of smoke and dust but with minimum chance of flame.</p><p>Fuelled with wildsea wood.</p>",
+      "type": "Двигун"
+    },
+    "Jet-Throat Pitcher": {
+      "name": "Jet-Throat Pitcher",
+      "details": "<p>A delicate pitcher plant with an unexpectedly robust system of root-like exhaust vents. The pitcher's bulb produces flotational gas, and the roots can be angled to give a ship a modicum of directional thrust.</p><p>Takeoff Cost: Seals\nFlight Style: Float, Glide</p>",
+      "type": "Lift Systems"
+    },
+    "Junk-Strung": {
+      "name": "Junk-Strung",
+      "details": "<p>The mark of a ship well-scarred and oft-repaired, a junk-strung hull is barely a hull at all... More a collection of scavenged metal, driftwood, and animal\nbones; unstable, rusting, and leaky.</p><p>Mark your Seals or Armour rating to pull a piece of useful salvage from the hull.</p>",
+      "type": "Корпус"
+    },
+    "Kaboara": {
+      "name": "Kaboara",
+      "details": "<p>Hideously complex, but undeniably effective at clearing the way, the kaboara takes the form of a series of angled pots, tubes, and funnels used to direct doses of explosive alchemical mixture.</p><p>Deals massive CQ Blast damage</p>",
+      "type": "Вгризання"
+    },
+    "Kineticant Colony": {
+      "name": "Kineticant Colony",
+      "details": "<p>You can cut a path without using bite or engine once per journey. Increase your stealth rating by two  marks for the duration of this movement.</p>",
+      "type": "Delving Additions"
+    },
+    "Kinsquid": {
+      "name": "Kinsquid",
+      "details": "<p>Affectionate tentacular beasties that always seem to be around when you need them.</p>",
+      "type": "Delving Packs"
+    },
+    "Kleptothermic Dromats": {
+      "name": "Kleptothermic Dromats",
+      "details": "<p>All of your plots have resistance to weather hazards.</p>",
+      "type": "Gardening Packs"
+    },
+    "Labyrinth of Twine": {
+      "name": "Labyrinth of Twine",
+      "details": "<p>A high-sided plot consisting of angled grow beds, notched metal poles, alchemically treated soil, and an absolute morass of interlinked strings.</p><p>Duplicate hybridization results are discarded, having no effect on the plant.</p>",
+      "type": "Hybrid Gardening Plots"
+    },
+    "Large": {
+      "name": "Large",
+      "details": "<p>Can house 10-20 crew with room to spare, many more if necessary, depending on the internal designs and additional fittings. Large ships are most often used to patrol trade-routes around more lawful areas, or to transport settlers and research teams for large factions.</p>",
+      "type": "Розмір"
+    },
+    "Leaf-Rubber Octopump": {
+      "name": "Leaf-Rubber Octopump",
+      "details": "<p>It's not alive. It's just a machine after all. But the way those tubes writhe, and those bellows wheeze like lungs... Suffice it to say that if it were alive, it would most probably be very unhappy.</p>",
+      "type": "Scrubbers"
+    },
+    "Leather Pinions": {
+      "name": "Leather Pinions",
+      "details": "<p>Folded against the hull when not in use, a ship needs a good turn of speed to take to the air as they snap open.</p><p>Takeoff Cost: Tilt\nFlight Style: Rush, Flap</p>",
+      "type": "Lift Systems"
+    },
+    "Lemur Pack": {
+      "name": "Lemur Pack",
+      "details": "<p>A group of nimble helpers that keep the ship clear of smaller insects.</p>",
+      "type": "Beast Packs"
+    },
+    "Lens Room": {
+      "name": "Lens Room",
+      "details": "<p>A room of telescopes and ocular magnifiers offering a commanding view, a good interior alternative to an observation platform.</p>",
+      "type": "Common Rooms"
+    },
+    "Leviathan Bone": {
+      "name": "Leviathan Bone",
+      "details": "<p>A hull crafted from one or more pieces of leviathan skeleton. Solid, if a little morbid.</p>",
+      "type": "Корпус"
+    },
+    "Leviathan Heart": {
+      "name": "Leviathan Heart",
+      "details": "<p>An actual leviathan heart, still beating reflexively, hooked up to the ship. Pumps viscous black fuel through pipes and valves.</p><p>Requires no fuel, but in a particularly ominous way.</p>",
+      "type": "Двигун"
+    },
+    "Levito Bolt Exchange": {
+      "name": "Levito Bolt Exchange",
+      "details": "<p>While it may seem little more than a confusion of hissing pistons and thumping hammers, the external section - a series of bolts attached to the hull - allow a ship to surf magnetic fields normally too weak to detect.</p><p>Takeoff Cost: Stealth + Saws\nFlight Style: Float, Hover, Glide</p>",
+      "type": "Lift Systems"
+    },
+    "Library": {
+      "name": "Library",
+      "details": "<p>An overly grand name for what's most often a small cache of books, scrolls, and inscribed tablets.</p>",
+      "type": "Airborne Rooms"
+    },
+    "Library Boatmen": {
+      "name": "Library Boatmen",
+      "details": "<p>Automatically acquire one normal chart when you dock at port.</p>",
+      "type": "Insect Packs"
+    },
+    "Light": {
+      "name": "Light",
+      "details": "<p>Made with the lightest possible materials in the smallest possible amounts.</p>",
+      "type": "Рама"
+    },
+    "Lightless Scribes": {
+      "name": "Lightless Scribes",
+      "details": "<p>Whenever the Pressure level increases, make a d6 fortune roll. On a 4, 5, or 6 gain a chart.</p>",
+      "type": "Delving Gangs"
+    },
+    "Lightning Rod": {
+      "name": "Lightning Rod",
+      "details": "<p>A multi-pronged metal array for attracting lightning and storing it in ceramic batteries.  \nAutomatically acquire a charged ceramic battery whenever your ship enters a lightning storm.</p>",
+      "type": "Bounteous Additions"
+    },
+    "Limited Armoury Rack": {
+      "name": "Limited Armoury Rack",
+      "details": "<p>A rack stocked with simple weapons. When leaving or defending the ship, crewmembers can take a temporary piece of gear with the LR or CQ tag and a single damage type (either Blunt, Keen or Spike). This temporary weapon comes with a two track and can’t be repaired.</p>",
+      "type": "Boarding Equipment"
+    },
+    "Lockdown Protocol": {
+      "name": "Lockdown Protocol",
+      "details": "<p>Sets of printed instructions in multiple languages displayed around the ship, written or dictated by experienced delvers.</p><p>At the beginning of any journey you may choose either bad air, drifting spores, wandering spirits, or insect incursions. The interior of your ship is completely immune to the chosen hazards for the duration of your journey.</p>",
+      "type": "Delving Additions"
+    },
+    "Longjaw": {
+      "name": "Longjaw",
+      "details": "<p>An underslung chainsaw arrangement that extends from the front of the ship, chewing and pulling forward.</p><p>Deals massive CQ Serrated damage</p>",
+      "type": "Вгризання"
+    },
+    "Lounger's Tent": {
+      "name": "Lounger's Tent",
+      "details": "<p>A rest area on the deck of the ship, the canvas providing shade and a break from the wind without being cooped up belowdecks.</p>",
+      "type": "External Structures"
+    },
+    "Luminous Blooms": {
+      "name": "Luminous Blooms",
+      "details": "<p>Patches of moss or flowering plants that shed pale light in the darker hours.</p>",
+      "type": "General Additions"
+    },
+    "Lung-Petal Crawlers": {
+      "name": "Lung-Petal Crawlers",
+      "details": "<p>Orchid-like ambulatory plants that naturally filter the air around them. Mark to increase impact on an action dealing with bad air or drifting spores while on your ship.</p>",
+      "type": "Delving Packs"
+    },
+    "Luxury Quarters": {
+      "name": "Luxury Quarters",
+      "details": "<p>Individual spaces for each crewmember to sleep, complete with soft furnishings and tasteful decoration.</p>",
+      "type": "Common Rooms"
+    },
+    "Mag-Stone Plough": {
+      "name": "Mag-Stone Plough",
+      "details": "<p>Shards of mountain-stone, heavy with iron ore - they lift into the air at the flip of a switch, forming a floating partial shield at the front end of the deck.</p>",
+      "type": "Pressure Shells"
+    },
+    "Magnacoupled Kitesail": {
+      "name": "Magnacoupled Kitesail",
+      "details": "<p>A kitesail that has no obvious tether to the ship, allowing for complete freedom of movement at extreme range on windy days. When the kitesailor needs a quick return to the ship, the release of a spring activates an electromagnet, yanking it violently but effectively back toward the deck it launched from.</p>",
+      "type": "Rising Fittings"
+    },
+    "Magnet-Fishers": {
+      "name": "Magnet-Fishers",
+      "details": "<p>Automatically acquire one normal piece of salvage when you drop anchor.</p>",
+      "type": "Gangs"
+    },
+    "Magnetic Coils": {
+      "name": "Magnetic Coils",
+      "details": "<p>Spinning cylinders that, ideally, maintain a state of almost perpetual motion.</p><p>Fuelled with magnetic scrap.</p>",
+      "type": "Двигун"
+    },
+    "Magnetic Spiral": {
+      "name": "Magnetic Spiral",
+      "details": "<p>Used to accelerate torbedoes to such ridiculous speeds that they shatter on impact. Charges fired deal their damage to all targets in a small area.</p>",
+      "type": "Torpedo Launcher"
+    },
+    "Magneticactus": {
+      "name": "Magneticactus",
+      "details": "<p>Technically it's only the spines that are used, drilled into the outer sections of a ship where they can resonate with magnetic fields. Attaching them to the outer hull correctly is a challenge in and of itself.</p><p>Takeoff Cost: Speed\nFlight Style: Float, Hover, Soar</p>",
+      "type": "Lift Systems"
+    },
+    "Makeshift Suits": {
+      "name": "Makeshift Suits",
+      "details": "<p>Uncomfortable to wear for long periods, these suits provide a modicum of protection against depth-related hazards the crew might encounter outside of the ship.</p><p>Crew that have time to suit up before leaving the ship gain a temporary 4-track benefit, Makeshift Suit (which may have negative effects on movement). The number of boxes on this track is reduced whenever the Pressure Level increases, unmarked boxes first.</p>",
+      "type": "Delving Equipment"
+    },
+    "Mangrove Cutting": {
+      "name": "Mangrove Cutting",
+      "details": "<p>Grisly remains harvested from a particular underthrash tree, avoided by undercrew whenever they can help it.  Whenever the Pressure Level increases, make a d6 fortune roll. On a 4, 5, or 6, gain a whisper.</p>",
+      "type": "Delving Additions"
+    },
+    "Mantis Sentries": {
+      "name": "Mantis Sentries",
+      "details": "<p>Automatically acquire one normal specimen when you dock at port.</p>",
+      "type": "Insect Packs"
+    },
+    "Marauders": {
+      "name": "Marauders",
+      "details": "<p>They fight in close combat to defend the ship, gaining focus every now and then to deal CQ Blunt, Keen or Spike damage.</p>",
+      "type": "Gangs"
+    },
+    "Medical Bay": {
+      "name": "Medical Bay",
+      "details": "<p>A clean space with tables and soft beds for the wounded and their carers.</p>",
+      "type": "Common Rooms"
+    },
+    "Medical Mosquitoes": {
+      "name": "Medical Mosquitoes",
+      "details": "<p>Infections and viruses don't naturally transfer from crewmember to crewmember.</p>",
+      "type": "Insect Packs"
+    },
+    "Memorial Cairn-Garden": {
+      "name": "Memorial Cairn-Garden",
+      "details": "<p>Gravedirt is rare in a world of sea-burials, but some hew to ways older than the waves.</p><p>Increase the track length of plants in the cairn-garden by two boxes. The first time a plant growing or harvested from the cairn-garden would gain a negative tag, ignore it (once per journey).</p>",
+      "type": "Full Gardening Solutions"
+    },
+    "Memory of Flame": {
+      "name": "Memory of Flame",
+      "details": "<p>A spool wound with the whispers of those that have witnessed the conflagration first-hand. When released, targets split and buckle as if burned without any of the associated risk of spreading fire or searing pain. Deals massive LR Flame damage.</p>",
+      "type": "Quiet Armament"
+    },
+    "Monument": {
+      "name": "Monument",
+      "details": "<p>An absurd affectation in a world of flexible branches and endless depth, monument hulls are made of appallingly heavy mountain-stone.</p><p>A ship with a monument hull can’t Forge Ahead during a journey.</p>",
+      "type": "Корпус"
+    },
+    "Monument Soil": {
+      "name": "Monument Soil",
+      "details": "<p>When you sow a vegetable or legume in monument soil, mark one box on its track immediately.</p>",
+      "type": "Gardening Mediums"
+    },
+    "Motive Moment": {
+      "name": "Motive Moment",
+      "details": "<p>A fossilized whisper of motion-based words, trapped and spinning drunkenly like a broken phonograph record.</p><p>Fuelled by sounds cut unnaturally short</p>",
+      "type": "Двигун"
+    },
+    "Moulded": {
+      "name": "Moulded",
+      "details": "<p>A single unbroken structure running through the ship - quite a feat of safety-conscious engineering</p>",
+      "type": "Рама"
+    },
+    "Mounted Magnet-Rail": {
+      "name": "Mounted Magnet-Rail",
+      "details": "<p>A powerful voltaic charge accelerates explosive projectiles to near-impossible speeds. Deals massive LR Blast damage. Reduce cut when attacking scaled targets.</p>",
+      "type": "Airborne Armament"
+    },
+    "Mucoid Rub": {
+      "name": "Mucoid Rub",
+      "details": "<p></p>",
+      "type": "Outrider Fittings"
+    },
+    "Muffling Wool": {
+      "name": "Muffling Wool",
+      "details": "<p>Shorn from shaggy drown-dwelling goats, left soft on the ship's interior and lacquered on the outer hull.</p><p>The crew treat conflicts as triumphs when trying to hide, keep quiet or go unnoticed within the ship.</p>",
+      "type": "Корпус"
+    },
+    "Mulcher": {
+      "name": "Mulcher",
+      "details": "<p>Grinding teeth in a lamprey-style mouth. Terribly noisy but dreadfully effective.</p><p>Deals massive CQ Serrated damage</p>",
+      "type": "Вгризання"
+    },
+    "Multi-Layered Fabrics": {
+      "name": "Multi-Layered Fabrics",
+      "details": "<p>A huge step up from just jamming rags into corners</p><p>Ship interior resists drifting spores</p>",
+      "type": "Scrubbers"
+    },
+    "Mutamulch": {
+      "name": "Mutamulch",
+      "details": "<p>Specimens grown in mutamulch gain an additional negative tag at time of harvesting (supplied by the Firefly).</p>",
+      "type": "Gardening Mediums"
+    },
+    "Myconic Struts": {
+      "name": "Myconic Struts",
+      "details": "<p>Does nothing to protect the ship from other spores (or any other depth-specific dangers), but a fungal reinforcement to the ship's frame helps it withstand the physical aspects of increasing pressure.</p>",
+      "type": "Scrubbers"
+    },
+    "Mycovent Exchange": {
+      "name": "Mycovent Exchange",
+      "details": "<p>A funnel system that extracts and redirects energy from spore-thick air</p><p>Fuelled by travelling through sporeclouds</p>",
+      "type": "Двигун"
+    },
+    "Mydas Duskdew": {
+      "name": "Mydas Duskdew",
+      "details": "<p>Though the arconautic processes behind the plant's transformative properties border on the inscrutable, they're hard to ignore. Once per journey, gain an insect specimen with the Golden tag.</p>",
+      "type": "Delving Additions"
+    },
+    "Nailed Whispers": {
+      "name": "Nailed Whispers",
+      "details": "<p>You can see them, sometimes, like dust in a sunbeam.</p><p>Ship interior resists insect incursions and wandering spirits</p>",
+      "type": "Scrubbers"
+    },
+    "Nano": {
+      "name": "Nano",
+      "details": "<p>Suited for a single sailor and maybe a passenger or two. Perfect for the lone wildsailor, possessed of excess bravery (or a deathwish).</p>",
+      "type": "Розмір"
+    },
+    "Navapede Limbs": {
+      "name": "Navapede Limbs",
+      "details": "<p>Centipedal limbs lining the hull, letting a ship scuttle through the thrash. If such a vessel could truly now be called a ship, of course.</p><p>Deals massive CQ Spike damage</p>",
+      "type": "Вгризання"
+    },
+    "Navigational Ordinator": {
+      "name": "Navigational Ordinator",
+      "details": "<p>Though the machine is large enough to require its own room on the ship, technicians swear that withing fifty years it'll be the size of a compass. Ignore any negative effects of Pressure or Scrutiny when rolling to manoeuvre the ship.</p>",
+      "type": "Light, Power, & Sound"
+    },
+    "Navigational Suite": {
+      "name": "Navigational Suite",
+      "details": "<p>A room devoted to the storage and usage of maps, charts, and navigational equipment.</p>",
+      "type": "Common Rooms"
+    },
+    "Night Farm": {
+      "name": "Night Farm",
+      "details": "<p>A dark, covered soilpit for growing mushrooms.\r\nAutomatically acquire a mushroom-based specimen when you use a task to tend to the night farm.</p>",
+      "type": "Bounteous Additions"
+    },
+    "Nimbus Sages": {
+      "name": "Nimbus Sages",
+      "details": "<p>Automatically acquire a weather-based chart after a storm (or other unusual weather-based event).</p>",
+      "type": "Rising Gangs"
+    },
+    "Nimbus Tin": {
+      "name": "Nimbus Tin",
+      "details": "<p>Though less impressive in terms of defence than iron or steel, nimbus tin is light enough not to interfere too much with aerial movement... Plus the odd mottling colour is a good match for the wild skies.</p>",
+      "type": "Корпус"
+    },
+    "Nothing but Hope": {
+      "name": "Nothing but Hope",
+      "details": "<p>Your ship travels the depths without reinforcement, the crew relying on silent prayers to keep pressure at bay.</p>",
+      "type": "Pressure Shells"
+    },
+    "Observation Platform": {
+      "name": "Observation Platform",
+      "details": "<p>A strut-like protuberance giving an unparalleled view of the surrounding waves, usually with some kind of line of communication to the pilot's cabin.</p>",
+      "type": "External Structures"
+    },
+    "Ornery Bark": {
+      "name": "Ornery Bark",
+      "details": "<p>When you sow a fruit, berry, or moss in ornery bark, mark one box on its track immediately.</p>",
+      "type": "Gardening Mediums"
+    },
+    "Outboard Serroclaws": {
+      "name": "Outboard Serroclaws",
+      "details": "<p>Outboard engines housing chainsaw attachments, made to resemble a mantid's claws.</p><p>Deals massive CQ Serrated damage</p>",
+      "type": "Вгризання"
+    },
+    "Overburner": {
+      "name": "Overburner",
+      "details": "<p></p>",
+      "type": "Outrider Fittings"
+    },
+    "Overside Cache": {
+      "name": "Overside Cache",
+      "details": "<p>A collection of mostly useless junk in a rather fancy cargo crate, specifically designed to catch the eye of looters and marauders after being pushed over the edge of your ship.</p><p>Optimal Use: Push over the side to clear a burn from any marauder-based eye.</p>",
+      "type": "Bafflers"
+    },
+    "Owl-Arms": {
+      "name": "Owl-Arms",
+      "details": "<p>Mark the owl-arms' track to gain a resource, 'Freshly-Caught Prey'.</p>",
+      "type": "Rising Gangs"
+    },
+    "Pamu": {
+      "name": "Pamu",
+      "details": "<p>Parasite leaves that grow directly from a ship's upper hull, and that naturally curl around the exposed deck when their vessel dips below the canopy.</p><p>Deck area benefits from ship's interior resistances</p>",
+      "type": "Pressure Shells"
+    },
+    "Panic Room": {
+      "name": "Panic Room",
+      "details": "<p>A small room stocked with salted supplies and bedrolls, able to be triple-locked from the inside and extremely hard to break into.</p>",
+      "type": "Common Rooms"
+    },
+    "Parasail": {
+      "name": "Parasail",
+      "details": "<p>Designed to pull a surf-seed along using nothing but the wild winds. Requires favourable winds for travel.</p>",
+      "type": "Bloom Surfing"
+    },
+    "Parasite Pitcher": {
+      "name": "Parasite Pitcher",
+      "details": "<p>A large pitcher plant coaxed into taking root in an engine housing, vines intermingling with the ship's systems.</p><p>Fuelled with organic material (preferably living).</p>",
+      "type": "Двигун"
+    },
+    "Parasite Planking": {
+      "name": "Parasite Planking",
+      "details": "<p>Wood carefully cut from long-used parasite farm branches, treated to resist incoming damage but natural enough that plants can still take root.</p><p>Gain two plots on your ship named 'planking rootbeds'. Parasite seeds sown within these plots don't gain the usual extra box on their Grow tracks.</p>",
+      "type": "Корпус"
+    },
+    "Parasite Vines": {
+      "name": "Parasite Vines",
+      "details": "<p>Winding throughout the ship, the leaves of these vines tend to absorb unusual elements as they grow</p><p>Ship interior resists bad air</p>",
+      "type": "Scrubbers"
+    },
+    "Patchwork Crew": {
+      "name": "Patchwork Crew",
+      "details": "<p>Unnerving though their presence may be, these whisper-animated sacks of dried leaves and wave-level offcuts can be pushed over the side of a ship to bait hungry pursuers with a nose for the crew.</p><p>Optimal Use: Throw overboard to clear a burn from any Eye tracking the crew rather than the ship.\nAlternate Use: They rarely get much done, but you might as well put those whispers to work. Instead of clearing an Eye, clear a mark on any two of your ship's ratings.</p>",
+      "type": "Bafflers"
+    },
+    "Patchwork Gasbag": {
+      "name": "Patchwork Gasbag",
+      "details": "<p>It's almost criminal you're being charged for this. Ascent with a gasbag of this quality is ponderously slow, and puts massive stress on a ship's internal structures.</p><p>Takeoff Cost: Tilt + Armour\nFlight Style: Float, Hover</p>",
+      "type": "Lift Systems"
+    },
+    "Pathfinding": {
+      "name": "Pathfinding",
+      "details": "<ul><li><p>Trinkets and gewgaws from various contacted cultures affixed to the hull.</p></li><li><p>A reinforced engine room with a secondary set of seals or bulkheads protecting it.</p></li><li><p>An array of wilds-clearing tools, allowing crew fighting on or below decks easy access to Hewing or Serrated damage.</p></li></ul>",
+      "type": "Motif"
+    },
+    "Pepper-Barrel Gatling": {
+      "name": "Pepper-Barrel Gatling",
+      "details": "<p>Made for laying down a hail of suppressive fire or shredding smaller targets. Deals high-impact LR Spike or Serrated damage to all targets in a small area.</p>",
+      "type": "Airborne Armament"
+    },
+    "Periscope Mirrors": {
+      "name": "Periscope Mirrors",
+      "details": "<p>Arranged throughout the ship, a set of mirroring channels to give the pilot a more complete view of their surroundings even when submerged.</p>",
+      "type": "General Additions"
+    },
+    "Personal Modification": {
+      "name": "Personal Modification",
+      "details": "<p>What exactly have you done to the thing? Portside engineers would weep. \n\n1. Increase any three rating by \n2. Decrease any one rating by 1.\n</p>",
+      "type": "Outrider Fittings"
+    },
+    "Picaros": {
+      "name": "Picaros",
+      "details": "<p>They fight at range to defend the ship, gaining focus every now and then to deal LR Blunt, Keen or Spike damage.</p>",
+      "type": "Gangs"
+    },
+    "Piped Air": {
+      "name": "Piped Air",
+      "details": "<p>A pipe system that carries air from the interior of a ship to nozzles on the deckside, allowing those working outside to breathe easy even when high in the atmosphere.</p>",
+      "type": "Rising Fittings"
+    },
+    "Plasm Bulkheads": {
+      "name": "Plasm Bulkheads",
+      "details": "<p>Thin organic membranes stretched over every vent and doorway that open and close on instinct as crew and companions pass through them.</p><p>Ship interior is immune to bad air</p>",
+      "type": "Scrubbers"
+    },
+    "Porthole Windowbox": {
+      "name": "Porthole Windowbox",
+      "details": "<p>Whenever your ship travels deeper than the thrash, your plot is at risk. Roll a d6 - on a 6 it's fine, on a 5 or 4 the plants within are damaged, on a 3, 2 or 1 the entire plot is destroyed.</p>",
+      "type": "Gardening Plots"
+    },
+    "Portoise": {
+      "name": "Portoise",
+      "details": "<p>The portoise can move slowly around the ship, avoiding bad growing conditions (such as adverse weather) by heading belowdecks. If it is caught up in a fight, it can negate one instance of damage to a nearby crewmember once per scene.</p>",
+      "type": "Gardening Plots"
+    },
+    "Press Piping": {
+      "name": "Press Piping",
+      "details": "<p>Hardly the most powerful engine around, but one that's extremely easy to fuel for a diligent crew.</p><p>Fuelled with fruit rinds and vegetable skins.</p>",
+      "type": "Двигун"
+    },
+    "Promoted Generalist": {
+      "name": "Promoted Generalist",
+      "details": "<ul><li><p>1 rank in any three skills or languages.</p></li></ul>",
+      "type": "Rising Officer"
+    },
+    "Promoted Specialist": {
+      "name": "Promoted Specialist",
+      "details": "<ul><li><p>3 ranks in any one skill</p></li></ul>",
+      "type": "Delving Officer"
+    },
+    "Propeller-Cage": {
+      "name": "Propeller-Cage",
+      "details": "<p>A cage housing that holds large airboat-style propellers used to push the ship forward.</p><p>Deals massive CQ Blunt damage</p>",
+      "type": "Вгризання"
+    },
+    "Protobound": {
+      "name": "Protobound",
+      "details": "<p>Attacking invasive spirits target protobound before any other member of the crew.</p>",
+      "type": "Delving Gangs"
+    },
+    "Protoleviathan Skeleton": {
+      "name": "Protoleviathan Skeleton",
+      "details": "<p>The pyramids of predator and prey beneath the waves are malleable and ever-changing, but leviathans and protoleviathans almost inevitably sit upon their capstones.</p><p>Ship interior resists bad air, drifting spores, insect incursions, and wandering spirits</p>",
+      "type": "Scrubbers"
+    },
+    "Pseudomatic Claw": {
+      "name": "Pseudomatic Claw",
+      "details": "<p>An ensouled machine, similar to an ironbound. It acts as a floating cargo crane, able to drift from place to place with spiritual energy.</p>",
+      "type": "Rising Beast Packs"
+    },
+    "Pseudosun Closet": {
+      "name": "Pseudosun Closet",
+      "details": "<p>Cramped but relaxing, this small space is drenched with a warm orange light from multiple arc-powered bulbs and firefly lanterns that simulates the distant sun's rays.</p>",
+      "type": "Delving Additions"
+    },
+    "Pulsing Cocoon": {
+      "name": "Pulsing Cocoon",
+      "details": "<p>An unknown insect shifts inside, glutting on dreams and spinning them into an ebb of arconautic force. Crews report intensely vivid dreams.</p><p>Fuelled with the dreams of the crew.</p>",
+      "type": "Двигун"
+    },
+    "Pyramidal Stabilizer": {
+      "name": "Pyramidal Stabilizer",
+      "details": "<p>This bulky device detects and corrects unexpected spins and losses of balance. Reduce cut imposed when trying to saw through or ram an aerial obstacle.</p>",
+      "type": "Airborne Rooms"
+    },
+    "Quartzwater Cannon": {
+      "name": "Quartzwater Cannon",
+      "details": "<p>Each shot a kiss from the deepest winter. Deals massive LR Frost damage. Reduce cut when attacking feathered targets.</p>",
+      "type": "Airborne Armament"
+    },
+    "Ragamoff Squirrels": {
+      "name": "Ragamoff Squirrels",
+      "details": "<p>Flying squirrels adept at retrieving small resources in the immediate vicinity of the ship, allowing the crew to stay safely sealed inside.</p>",
+      "type": "Delving Packs"
+    },
+    "Raiding": {
+      "name": "Raiding",
+      "details": "<ul><li><p>Fortified deck-rails to give the crew cover while shooting (or being shot at).</p></li><li><p>Bulkhead doors that can be closed and locked to isolate boarding parties.</p></li><li><p>An armoury lockbox containing weapons taken as spoils from previous encounters, allowing crew fighting on or below decks easy access to Blunt or Blast damage.</p></li></ul>",
+      "type": "Motif"
+    },
+    "Ramming Prow": {
+      "name": "Ramming Prow",
+      "details": "<p>Allows you to ram creatures (and ships) without danger to your own hull. Deals massive CQ Blunt damage.</p>",
+      "type": "Hull Weapons"
+    },
+    "Ratwheel exchange": {
+      "name": "Ratwheel exchange",
+      "details": "<p>Exactly what you might imagine, a pure transfer of kinetic energy from restless rats to wheel to bite. Ethical engineers tend to give their rats the run of the ship.</p><p>The rats need feeding every now and then, but\r\nthey're not fussy.</p>",
+      "type": "Двигун"
+    },
+    "Razorscale": {
+      "name": "Razorscale",
+      "details": "<p>An exterior of interlocking scales sloughed or harvested from a wildsea beast, sharpened for effectiveness.</p>",
+      "type": "Корпус"
+    },
+    "Re-Scrutiniser": {
+      "name": "Re-Scrutiniser",
+      "details": "<p>The sky watches, but this ship watches in return. An arrangement of amber lenses and arconautically charged wiring leads to a central screen, creating a simple but accurate radar-like display.</p>",
+      "type": "Rising Fittings"
+    },
+    "Reclaimed Burner": {
+      "name": "Reclaimed Burner",
+      "details": "<p>An ancient burner that runs on processed chemical fuel, salvaged from the innards of a pre-verdant ship. Requires excessive ventilation. Don't use this.</p><p>Runs on processed chemical fuel.\n\nLiable to explode if seriously damaged</p>",
+      "type": "Двигун"
+    },
+    "Reef-Iron": {
+      "name": "Reef-Iron",
+      "details": "<p>Metal plating from decommissioned ships, reshaped for your frame. Durable and rust-resistant.</p>",
+      "type": "Корпус"
+    },
+    "Reef-Iron Enclosure": {
+      "name": "Reef-Iron Enclosure",
+      "details": "<p>Studded with portholes and rubberized seals, this canopizing contraption affords a superb level of protection for the serious submariner crew.</p><p>Deck area benefits from ship's interior resistances</p>",
+      "type": "Pressure Shells"
+    },
+    "Reinforced": {
+      "name": "Reinforced",
+      "details": "<p>A simple frame, augmented with a multitude of cycling locks, pressure exchangers, and built-in ordinators.</p>",
+      "type": "Рама"
+    },
+    "Rescue": {
+      "name": "Rescue",
+      "details": "<ul><li><p>Emergency medicine for some of the more common maladies of the waves.</p></li><li><p>A photoscope for picking out glints of wreckage or distress flares at a great distance.</p></li><li><p>An isolation room packed with soft amber resin, for keeping the crew insulated from and slowing the progress of illnesses during a journey.</p></li></ul>",
+      "type": "Motif"
+    },
+    "Research": {
+      "name": "Research",
+      "details": "<ul><li><p>A higher level of general technology on show than average.</p></li><li><p>A library for recording new findings and delving into secrets and lore.</p></li><li><p>A snapograph arrangement, a complex deck-mounted photography system for catching images of the waves and printing them on light-sensitive paper.</p></li></ul>",
+      "type": "Motif"
+    },
+    "Rig-Ferrets": {
+      "name": "Rig-Ferrets",
+      "details": "<p>Used to tie and untie knots far above deck on ships that evoke the feeling of the old salt sea.</p>",
+      "type": "Beast Packs"
+    },
+    "Rig-Ropes": {
+      "name": "Rig-Ropes",
+      "details": "<p>Ropes strung up above the deck for various purposes, often climbed, used as safety lines for trips over the edge of the ship, or hung with drying washing.</p>",
+      "type": "General Additions"
+    },
+    "Ripsaw Prow": {
+      "name": "Ripsaw Prow",
+      "details": "<p>A serrated leading edge for cutting through enemy ships without danger to your own hull. Deals massive CQ Serrated damage.</p>",
+      "type": "Hull Weapons"
+    },
+    "Rooftop Allotment": {
+      "name": "Rooftop Allotment",
+      "details": "<p>Reduce the Grow track length of plants sown in a rooftop allotment by 1 box.</p>",
+      "type": "Gardening Plots"
+    },
+    "Rootwood": {
+      "name": "Rootwood",
+      "details": "<p>Hull planks cut from the base of the ironroots, drenched in three hundred years of verdant history and incalculable aeons of lost time.</p><p>Once per journey, your ship ignores incoming damage from a leviathan-sized source.</p>",
+      "type": "Корпус"
+    },
+    "Rope Golem": {
+      "name": "Rope Golem",
+      "details": "<p>A semi-sentient mass of animated ropes running through the rooms and corridors of the ship.</p><p>Takes no fuel, but the ropes must be replaced when they begin to fray.\n\r\nRope golems have an unpredictable will of their own that may manifest at unexpected moments.</p>",
+      "type": "Двигун"
+    },
+    "Roto-Chopper": {
+      "name": "Roto-Chopper",
+      "details": "<p>Some say the aeronaut rotor was inspired by the sawblades of the wild's earliest days. The roto-chopper shows that inspiration sometimes comes full circle.</p><p>Deals massive CQ Hewing damage.</p>",
+      "type": "Вгризання"
+    },
+    "Rough Bark": {
+      "name": "Rough Bark",
+      "details": "<p>Harvested from the ironroots. Irregular and tough to maintain, but easy for others to overlook at distance across the waves.</p>",
+      "type": "Корпус"
+    },
+    "Rough-Drilled Deck": {
+      "name": "Rough-Drilled Deck",
+      "details": "<p>When you create a Rough-Drilled Deck plot, reduce your Armour or Seals rating by one box.</p>",
+      "type": "Gardening Plots"
+    },
+    "Rowdy Motley": {
+      "name": "Rowdy Motley",
+      "details": "<p>Automatically reduce the number of marks on the Pressure track by one when you drop anchor.</p>",
+      "type": "Delving Gangs"
+    },
+    "Rust-Roaches": {
+      "name": "Rust-Roaches",
+      "details": "<p>Automatically acquire one normal piece of salvage when you dock at port.</p>",
+      "type": "Insect Packs"
+    },
+    "Rusted Segmento": {
+      "name": "Rusted Segmento",
+      "details": "<p>Plates of interlocking iron that can be pulled into place to cover the deck. Low quality in material terms, but good at shouldering incoming damage aside.</p>",
+      "type": "Pressure Shells"
+    },
+    "Safety Tethers": {
+      "name": "Safety Tethers",
+      "details": "<p>Running from a ring sunk into the deck to a wildsailor's belt or harness, these turn a dangerous tumble into an embarrassing mid-air hang.</p><p>Working with a tether attached is safer, but also clumsier - cut on actions taken with other tethered crewmates around is common.</p>",
+      "type": "Aeronaut Equipment"
+    },
+    "Salt Signs": {
+      "name": "Salt Signs",
+      "details": "<p>Invisible except under direct moonlight, impossibly complex sigils cover every inch of the ship's structure, forbidding entry to any spectral entity that the ship doesn't recognise as crew.</p><p>Ship interior is immune to wandering spirits</p>",
+      "type": "Scrubbers"
+    },
+    "Salt-Rimed Wasps": {
+      "name": "Salt-Rimed Wasps",
+      "details": "<p>Mark to increase impact on an action dealing with wandering spirits or insect incursions while on your ship.</p>",
+      "type": "Delving Insect Packs"
+    },
+    "Salvaging": {
+      "name": "Salvaging",
+      "details": "<ul><li><p>A scratched and dented appearance, making you look almost like a wreck yourself.</p></li><li><p>A modified cargo area with work benches and tools for disassembly.</p></li><li><p>A grappling crane built into the ship's structure for attaching to large wreckage, allowing it to be hauled onto the deck or towed behind the ship.</p></li></ul>",
+      "type": "Motif"
+    },
+    "Sawprow": {
+      "name": "Sawprow",
+      "details": "<p>A wildsea favourite, the sawprow is a chainsaw edge that runs down the curve of the prow. Capable of cutting through most obstructions with ease.</p>",
+      "type": "Вгризання"
+    },
+    "Scatterbird Cages": {
+      "name": "Scatterbird Cages",
+      "details": "<p>For those with higher ambitions than insect training, these rows of cages can be opened to fill the air with extremely angry avians. They'll (mostly) return to their perches after working their fury out on anything nearby.</p><p>Optimal Use: Release to clear a burn from any Eye tracking the ship from above the clouds.\nAlternate Use: A fury of claws and beaks cover the deck, dealing Massive CQ Spike damage to anyone nearby (including your own crew, if you're out there).</p>",
+      "type": "Bafflers"
+    },
+    "Scholars": {
+      "name": "Scholars",
+      "details": "<p>You learn a secret of the surrounding waves whenever you drop anchor, supplied by the Firefly.</p>",
+      "type": "Gangs"
+    },
+    "Scorpion Set": {
+      "name": "Scorpion Set",
+      "details": "<p>Surly, patient, and venomous, often found sunning themselves on railings or hiding inside boots.</p>",
+      "type": "Insect Packs"
+    },
+    "Scorpion Strike": {
+      "name": "Scorpion Strike",
+      "details": "<p>A spring-wound weapon that creaks alarmingly with every judder of the ship, packing enough punch that 'firing' it tends to shake a vessel down to the frame. Deals massive CQ Hewing damage. You may mark one of your ratings to hijack focus and attack with this armament (once per scene).</p>",
+      "type": "Delving Armament"
+    },
+    "Scramblepads": {
+      "name": "Scramblepads",
+      "details": "<p>Modeled after an ionjaw ray's flippers, these paddle-shaped pinions work as oars on the treetop sea and directional fins when a ship is airborne.</p><p>Deals massive CQ Blunt damage.</p>",
+      "type": "Вгризання"
+    },
+    "Scrap-Mound": {
+      "name": "Scrap-Mound",
+      "details": "<p>Cut 1 when attempting to harvest plants from this plot.</p>",
+      "type": "Gardening Plots"
+    },
+    "Scraps of Cloth": {
+      "name": "Scraps of Cloth",
+      "details": "<p>Really? That's what you're going with?</p>",
+      "type": "Scrubbers"
+    },
+    "Scything": {
+      "name": "Scything",
+      "details": "<p>Often wedge or blade-shaped, scything frames are constructed specifically to cut as efficiently as possible through the waves.</p>",
+      "type": "Рама"
+    },
+    "Scything-Bell Station": {
+      "name": "Scything-Bell Station",
+      "details": "<p>A more advanced version of the caging bell, this 'room' acts almost as a tethered outrider when detached from the main vessel. The scything-bell can be raised and lowered with internal controls, and comes equipped with a serrated sawblade capable of cutting through obstructions and effecting lateral movement.</p>",
+      "type": "Delving Rooms"
+    },
+    "Seven-Tooth Cogs": {
+      "name": "Seven-Tooth Cogs",
+      "details": "<p>Something about the way these cogs mesh and turn is antithetical to spectral entities, and even anchored and ironbound wildsailors tend to feel queasy around them.</p><p>Ship interior resists wandering spirits</p>",
+      "type": "Scrubbers"
+    },
+    "Shard Chambers": {
+      "name": "Shard Chambers",
+      "details": "<p>Pieces of a sailing stone are placed at strategic points within a vessel's structure. They abhor the skies, but excel at scudding through the depths and across the yawning spaces offered by rifts.</p><p>Takeoff Cost: Speed\nFlight Styles: Float, Hover, Glide\nOnly functions when the ship is within or below the level of the thrash</p>",
+      "type": "Lift Systems"
+    },
+    "Sharpened Prow": {
+      "name": "Sharpened Prow",
+      "details": "<p>Simple and straightforward, a honed blade running the\r\nlength of the ship’s prow to cut through vegetation.</p><p>Provides a basic cutting edge, but no motive force.Just about works when paired with oars, but you\nreally should choose something better.\n\nDeals massive CQ Keen damage... or it would, if you could get up enough speed.</p>",
+      "type": "Вгризання"
+    },
+    "Shrapnel Cannon": {
+      "name": "Shrapnel Cannon",
+      "details": "<p>Fires clouds of tearing metal, usually just armfuls of scrap offcuts tossed into the barrel. Deals massive LR Serrated damage.</p>",
+      "type": "Deck Weapons"
+    },
+    "Shutter-Lamps": {
+      "name": "Shutter-Lamps",
+      "details": "<p>A bank of lights and shutters for blinking visual signals across vast distances. At least a smattering of the Signalling language is required to use or understand them effectively</p>",
+      "type": "General Additions"
+    },
+    "Sidewinder": {
+      "name": "Sidewinder",
+      "details": "<p>Segmentation taken to the extreme. When dropping anchor the ship can curl around branches or monuments, anchoring itself so thoroughly that even a rootquake can't dislodge it.</p>",
+      "type": "Рама"
+    },
+    "Signal Flares": {
+      "name": "Signal Flares",
+      "details": "<p>Colour-coded flares meant to be fired up into the heavens to communicate findings, threats, and positioning. At least a smattering of the Signalling language is required to use or understand them effectively</p>",
+      "type": "General Additions"
+    },
+    "Signal Mirrors": {
+      "name": "Signal Mirrors",
+      "details": "<p>A method of long-distance communication using an array of spinning mirrors attached to a refurbished ordinator. Can be controlled from the pilot's station or the mirrors themselves.</p>",
+      "type": "Rising Fittings"
+    },
+    "Silvergrit Exchange": {
+      "name": "Silvergrit Exchange",
+      "details": "<p>Silvergrit is a tiny particulate substance made from dried sundew stalks, pumped through corridors and out of vents to distract invading insects.</p><p>Ship interior is immune to insect incursions</p>",
+      "type": "Scrubbers"
+    },
+    "Six-Ring Promise": {
+      "name": "Six-Ring Promise",
+      "details": "<p>A bank of chemically-driven turbines working in tandem, the subject of many airyard arguments.</p><p>Tilt +2 (Only when airborne)\nFlight Styles: Rush, Soar</p>",
+      "type": "Двигун"
+    },
+    "Skewerjoys": {
+      "name": "Skewerjoys",
+      "details": "<p>Automatically acquire a resource, 'Skewered Insect', after moving through an area of particularly dense insect activity.</p>",
+      "type": "Delving Gangs"
+    },
+    "Skillful Officer": {
+      "name": "Skillful Officer",
+      "details": "<ul><li><p>2 ranks in any skill</p></li><li><p>1 rank in any other skill</p></li></ul>",
+      "type": "Officer"
+    },
+    "Skipper": {
+      "name": "Skipper",
+      "details": "<p></p>",
+      "type": "Outrider Chassis"
+    },
+    "Sky-Seers": {
+      "name": "Sky-Seers",
+      "details": "<p>You may mark this gang's track to avoid having an instance of cut count for Scrutiny.</p>",
+      "type": "Rising Gangs"
+    },
+    "Skyward Harness": {
+      "name": "Skyward Harness",
+      "details": "<p>Chains or ropes deeply anchored within the ship's structure, a skyward harness comes complete with a well-trained protoleviathan of the wild blue.</p><p>Takeoff Cost: Armour\nFlight Style: Float, Rush, Hover, Flap\nThe harnessed creature can deal massive CQ damage of any one chosen type, except Flame.</p>",
+      "type": "Lift Systems"
+    },
+    "Sleek": {
+      "name": "Sleek",
+      "details": "<p>Quiet is hard to come by on the wildsea, but a sleek frame ensures that no matter how noisy your bite and engine might be, you’ll always be low to the waves.</p>",
+      "type": "Рама"
+    },
+    "Sleek Sail": {
+      "name": "Sleek Sail",
+      "details": "<p>Triangular and manually angled, relying on an attentive crew to catch the right breezes.</p><p>Only effective in favourable winds.</p>",
+      "type": "Вгризання"
+    },
+    "Sliding Panels": {
+      "name": "Sliding Panels",
+      "details": "<p>While useless as a pressure shell, they make a handy set of movable shields in times of need.</p>",
+      "type": "Pressure Shells"
+    },
+    "Sluicejets": {
+      "name": "Sluicejets",
+      "details": "<p>Pressurised sluice systems filled with phytophobic chemicals, for coating the hull and pushing the ship.</p><p>Deals Massive CQ Acid damage</p>",
+      "type": "Вгризання"
+    },
+    "Small": {
+      "name": "Small",
+      "details": "<p>Suited for 2-4 people, cramped but serviceable for double that. Ideal for a first ship.</p>",
+      "type": "Розмір"
+    },
+    "Snap-Fire Grapples": {
+      "name": "Snap-Fire Grapples",
+      "details": "<p>Useless for forward movement, but excellent when it comes to slamming on the brakes or stopping an otherwise uncontrolled fall. Need to be rewound and reset with a task after use before being used again.</p>",
+      "type": "Delving Additions"
+    },
+    "Solar Compressor": {
+      "name": "Solar Compressor",
+      "details": "<p>Made to store, liquefy, and pressurize sunlight.</p><p>Naturally fuelled on sunny days.</p>",
+      "type": "Двигун"
+    },
+    "Spatterglass": {
+      "name": "Spatterglass",
+      "details": "<p>Pre-V glass coated with a thin layer of hydrophobic grease that interferes very little with transparency. Keeps views clear no matter the weather.</p>",
+      "type": "Rising Fittings"
+    },
+    "Spear-Fishers": {
+      "name": "Spear-Fishers",
+      "details": "<p>Automatically acquire one normal specimen when you drop anchor.</p>",
+      "type": "Gangs"
+    },
+    "Spearing Prow": {
+      "name": "Spearing Prow",
+      "details": "<p>A set of reinforced spikes jutting from the front of your shop, for ramming others without danger to your own hull. Deals massive CQ Spike damage.</p>",
+      "type": "Hull Weapons"
+    },
+    "Spider Colony": {
+      "name": "Spider Colony",
+      "details": "<p>Once a tzelicrae, now barely holding it together, a spider colony can achieve little on a ship other than keeping insects and rodents away.</p>",
+      "type": "Insect Packs"
+    },
+    "Spinch": {
+      "name": "Spinch",
+      "details": "<p>Submersible Pneumatic Inching Frame'. The ship's extending frame allows it to bridge gaps several times longer than the length of the ship.</p>",
+      "type": "Рама"
+    },
+    "Spitting Pitchergraft": {
+      "name": "Spitting Pitchergraft",
+      "details": "<p>A predatory plant of the depths coaxed into taking root among your ship's planks and plating. Deals massive LR Acid or Toxin damage.</p>",
+      "type": "Delving Armament"
+    },
+    "Spread": {
+      "name": "Spread",
+      "details": "<p>Distributes the ship's decks and rooms over a wider, flatter area than usual. The ship never has to cut for movement made to traverse thin or brittle branches.</p>",
+      "type": "Рама"
+    },
+    "Spring-Foxes": {
+      "name": "Spring-Foxes",
+      "details": "<p>A pod of spring-foxes that dance and leap through the waves around your ship as you travel. Their behaviour can warn of dangers from the deeper canopy.</p>",
+      "type": "Beast Packs"
+    },
+    "Spring-Set Decking": {
+      "name": "Spring-Set Decking",
+      "details": "<p>These deck planks have a little give, their absorbent properties reducing the chance of crew injuries when aerial manouevres turn harsh.</p>",
+      "type": "Rising Fittings"
+    },
+    "Springwork": {
+      "name": "Springwork",
+      "details": "<p>Wound exhaustively by hand, springwork engines store and release kinetic energy with surprising efficiency.</p><p>Fuelled with sweat, labour, and time spent winding.</p>",
+      "type": "Двигун"
+    },
+    "Square Sail": {
+      "name": "Square Sail",
+      "details": "<p>Taut canvas that relies on a strong breeze, this design harks back to an age of calm, clear waters.</p><p>Only effective in favourable winds.</p>",
+      "type": "Вгризання"
+    },
+    "Squirrel Flingers": {
+      "name": "Squirrel Flingers",
+      "details": "<p>They fight at range to defend the ship, gaining focus every now and then to deal LR Blunt, Keen or Spike damage.</p>",
+      "type": "Beast Packs"
+    },
+    "Standard": {
+      "name": "Standard",
+      "details": "<p>Comfortable for 5-10 people, but can hold double that number if necessary. The majority of ships out on the Wildsea are of standard size, hence the name.</p>",
+      "type": "Розмір"
+    },
+    "Stargazers": {
+      "name": "Stargazers",
+      "details": "<p>Automatically acquire one normal whisper when you drop anchor.</p>",
+      "type": "Gangs"
+    },
+    "Starlight Dance": {
+      "name": "Starlight Dance",
+      "details": "<p>Crews that have been taught the starlight dance know the secret ways of distracting the hungry light above, using shape and rhythm to cancel out gnawing need.</p><p>Optimal Use: Perform the dance at night with an additional light source to clear a burn from the Hungry Stars.\nAlternate Use: Instead of clearing an eye, all crewmates who dance can clear a box of mire.</p>",
+      "type": "Bafflers"
+    },
+    "Steam Exchange": {
+      "name": "Steam Exchange",
+      "details": "<p>There's little fear of fire on the endless snow flats... just remember to turn it off before you hit true seas again.</p><p>Keeps the ship interior livably warm.\nRuns on coal and snowmelt.\nProduces the specimen, Clean Water, every time the ship drops anchor.</p>",
+      "type": "Двигун"
+    },
+    "Steam Piping": {
+      "name": "Steam Piping",
+      "details": "<p>Hellish contraptions of tangled piping, rare chemicals, and scalding steam.</p><p>Fuelled with water (the cleaner the better).</p>",
+      "type": "Двигун"
+    },
+    "Steam Whistle": {
+      "name": "Steam Whistle",
+      "details": "<p>A shrill, piercing whistle used to announce your presence or scare the more skittish denizens of the sea.</p>",
+      "type": "General Additions"
+    },
+    "Steep-Water": {
+      "name": "Steep-Water",
+      "details": "<p>When you sow plants in steep-water, they don't gain a mark upon finishing a journey. However, all specimens gained from plants grown this way gain the 'Delicious' tag.</p>",
+      "type": "Gardening Mediums"
+    },
+    "Stone Eye": {
+      "name": "Stone Eye",
+      "details": "<p>Is this arconautic, or spiritual? A vessel for whispers, or for something far more ancient? Is this the work of some maddened sculptor, or an artefact from before the verdant world, or perhaps a leftover from an age before even then? And, most critically, did this thing just blink?</p><p>Fuelled with uncomfortable attention.</p>",
+      "type": "Двигун"
+    },
+    "Storm's Stolen Heart": {
+      "name": "Storm's Stolen Heart",
+      "details": "<p>There's a non-zero chance you'll be doggedly pursued until your crew is fried and your ship rendered into nothing but a charred memory. But, until then, this is a hell of a find.</p><p>Takeoff Cost: Seals\nFlight Style: Float, Hover, Soar\nReduce cut by one on aerial stunts performed in storms, living or otherwise.</p>",
+      "type": "Lift Systems"
+    },
+    "Storm-Rail": {
+      "name": "Storm-Rail",
+      "details": "<p>Two huge brass rods wrapped with poorly shielded cables, attached to a voltaic generator. Deals massive LR Volt damage.</p>",
+      "type": "Deck Weapons"
+    },
+    "Storm-Scrap": {
+      "name": "Storm-Scrap",
+      "details": "<p>Sealed inside of a triple-locked chamber, ringed with rubber seals and safety cages. If a fragment of storm, even one this small and mindless, ever escaped, it would wreak havoc on the vessel that imprisoned it.</p><p>Fuelled with electro-conductive salvage</p>",
+      "type": "Двигун"
+    },
+    "Stormplough": {
+      "name": "Stormplough",
+      "details": "<p>Reduce the impact of storms when you're moving through the clouds that make them up. In addition, your ship is resistant to lightning strikes.</p>",
+      "type": "Rising Fittings"
+    },
+    "Sturdy": {
+      "name": "Sturdy",
+      "details": "<p>Built to last in a place of temporary things, a sturdy frame helps weather the strongest assaults.</p>",
+      "type": "Рама"
+    },
+    "Sundown Roosters": {
+      "name": "Sundown Roosters",
+      "details": "<p>These birds crow at the setting of the sun rather than the rising, and care little about wind chill or external temperatures.</p>",
+      "type": "Rising Beast Packs"
+    },
+    "Sunscoop": {
+      "name": "Sunscoop",
+      "details": "<p>A sail-like array that ripples and surges in sunlight.</p><p>Only effective in direct sunlight.</p>",
+      "type": "Вгризання"
+    },
+    "Superstitious": {
+      "name": "Superstitious",
+      "details": "<p>A sonar-like device used for finding reefs, sunken ruins and hidden ships. Effective use while travelling requires a crewmember to monitor it, but they gain murksight for the duration (able to see through sporeclouds and gaseous obstructions).</p>",
+      "type": "General Additions"
+    },
+    "Surf-Seed Rack": {
+      "name": "Surf-Seed Rack",
+      "details": "<p>A collection of flat-topped seeds, each large enough to lie or stand on. Wildsailors can leap out onto the waves with one of these to ride a bloomtide, as long as they can keep their balance.</p><p>A player might use Wavewalk or Vault to balance on a surf-seed as it carries them along, a roll that will be harder to make the more violent the bloomtide is that they choose to ride.</p>",
+      "type": "Bloom Surfing"
+    },
+    "Survival Station": {
+      "name": "Survival Station",
+      "details": "<p>Containing flares, flags, grapples, wraps, and emergency rations.</p>",
+      "type": "General Additions"
+    },
+    "Sweat-Sails": {
+      "name": "Sweat-Sails",
+      "details": "<p>Held low to the waves, unfurled canvases shaped to catch the rising under-canopy heat.</p><p>Only effective in favourable winds.</p>",
+      "type": "Вгризання"
+    },
+    "Talongrove Tendrils": {
+      "name": "Talongrove Tendrils",
+      "details": "<p>Traditionally carved from sinuous talongrove trees, known to grow, flex, and grasp for decades after harvest.</p><p>Deals massive CQ Spike damage.</p>",
+      "type": "Вгризання"
+    },
+    "Tamed Hive": {
+      "name": "Tamed Hive",
+      "details": "<p>A buzzing organic engine of honeycombs and crawling workers, their movements a complex dance.</p><p>Fuelled with stolen flowers and unprocessed pollen.\nCrew can use a task while at sea to gain a resource, 'Fresh Engine-Honey', once per journey.</p>",
+      "type": "Двигун"
+    },
+    "Tap-Room": {
+      "name": "Tap-Room",
+      "details": "<p>For the creation, storage, and consumption of ales, mead, and spirits (the alcoholic kind). Usually furnished with comfortable seating, and maybe card tables.</p>",
+      "type": "Common Rooms"
+    },
+    "Tar-Canvas Layering": {
+      "name": "Tar-Canvas Layering",
+      "details": "<p>Stiffened fabric painted with layers upon layers of protective sealant, covering the deck like a rigid tent.</p>",
+      "type": "Pressure Shells"
+    },
+    "Temple Fragments": {
+      "name": "Temple Fragments",
+      "details": "<p>Plants with the rampant tag don't take up an extra quarter when sown in temple fragments.</p>",
+      "type": "Gardening Mediums"
+    },
+    "Tentaculari": {
+      "name": "Tentaculari",
+      "details": "<p>A living cluster of tendrils or tentacles attached to the ship's hull, carrying it through and across the waves in an unsettlingly alien motion.</p><p>Deals massive CQ Salt damage.</p>",
+      "type": "Вгризання"
+    },
+    "Tether-Lines": {
+      "name": "Tether-Lines",
+      "details": "<p>Coils of reinforced leaf-rubber and twine, designed to unspool slowly and retract at speed.</p><p>Crew that have time to attach a tether-line before leaving the ship at depth gain a temporary 3-track benefit, Tether-Line. The tether-line track can be marked to briefly swing on the line, or to be yanked toward the ship's deck.</p>",
+      "type": "Delving Equipment"
+    },
+    "Tethered Kites": {
+      "name": "Tethered Kites",
+      "details": "<p>An array of kites that catch the stronger winds of the lower air.</p><p>Only effective in favourable winds.</p>",
+      "type": "Вгризання"
+    },
+    "Tethered Kitesail": {
+      "name": "Tethered Kitesail",
+      "details": "<p>A glider tethered to the deck with a long rope, allowing aerial exploration on windy days.</p>",
+      "type": "General Additions"
+    },
+    "Tetralpaca": {
+      "name": "Tetralpaca",
+      "details": "<p>A small herd of hardy animals taken from the northernmost reaches of the known sea. Use a task or mark the tetralpaca to gain a resource, either 'Fresh Milk' or 'Snow-Coloured Wool'.</p>",
+      "type": "Rising Beast Packs"
+    },
+    "The Revenant": {
+      "name": "The Revenant",
+      "details": "<p>The first successful Ziggurat design, put together long before most had the wild blue in their sights.</p><p>Speed +2 (Only when airborne)\nFlight Styles: Rush, Soar</p>",
+      "type": "Двигун"
+    },
+    "Threaded Hullsect": {
+      "name": "Threaded Hullsect",
+      "details": "<p>A parasitic protoleviathan that grows as part of a ship rather than being tied to it in some way, resulting in a pair of massive but functional insect wings.</p><p>Takeoff Cost: None\nFlight Style: Float, Hover, Soar\nHullsects absolutely refuse to fly in wet weather.</p>",
+      "type": "Lift Systems"
+    },
+    "Threshing Combine": {
+      "name": "Threshing Combine",
+      "details": "<p>Rotating blades at the front of the ship, with netting and gathering equipment at their rear.</p><p>Whenever you Cut a Path, roll a d6. On a 6, you gain a Wild or Rampant seed specimen appropriate for the waves you're passing through.</p>",
+      "type": "Вгризання"
+    },
+    "Threshing-Cage": {
+      "name": "Threshing-Cage",
+      "details": "<p>An ever-moving arrangement of poles, chains, and blades, the entire rattling assemblage plugged straight into by the ship's engine.</p>",
+      "type": "Pressure Shells"
+    },
+    "Thumb-Wax Coating": {
+      "name": "Thumb-Wax Coating",
+      "details": "<p>Rubbed around doorways and portholes, and then applied liberally to any unusually draughty spots.</p><p>Ship interior resists wandering spirits</p>",
+      "type": "Scrubbers"
+    },
+    "Tinker Troupe": {
+      "name": "Tinker Troupe",
+      "details": "<p>A single crewmember can repair a mark from any gear when you drop anchor.</p>",
+      "type": "Gangs"
+    },
+    "Tinted Lounge": {
+      "name": "Tinted Lounge",
+      "details": "<p>Tinted amber-glass windows allow occupents to see out, but expensive mirrored finish prevents anyone from seeing in. Perfect for clandestine meetings, and for avoiding prying eyes.</p>",
+      "type": "Airborne Rooms"
+    },
+    "Tow-Line": {
+      "name": "Tow-Line",
+      "details": "<p>For the crew on a budget, sometimes there's no other option than to tow an outrider behind the main ship and hope it doesn't get too damaged in the process.</p>",
+      "type": "Launching and Docking"
+    },
+    "Trained Messengers": {
+      "name": "Trained Messengers",
+      "details": "<p>Flying creatures trained to seek out distant landmasses (or nearby ships), deliver messages to them, and return with replies. When choosing trained messengers, specify the type of creature you’re using (such as dragonflies or crows).</p>",
+      "type": "General Additions"
+    },
+    "Trained Pinwolf": {
+      "name": "Trained Pinwolf",
+      "details": "<p>They fight in close combat to defend the ship, gaining focus every now and then to deal CQ Blunt, Keen or Spike damage</p>",
+      "type": "Beast Packs"
+    },
+    "Transport": {
+      "name": "Transport",
+      "details": "<ul><li><p>A clean and professional paint job to attract potential passengers.</p></li><li><p>Built-in passenger quarters with varying levels of comfort. </p></li><li><p>A sturdily constructed panic room, suitable for holding passengers unwilling to fight in the event the ship is attacked or boarded.</p></li></ul>",
+      "type": "Motif"
+    },
+    "Trawler Nets": {
+      "name": "Trawler Nets",
+      "details": "<p>Reinforced nets meant to be draped over the sides of the ship during relaxed journeys, catching larger insects and small mammals before they’re hauled back in.\nAutomatically acquire one normal specimen when you cut a path.</p>",
+      "type": "Bounteous Additions"
+    },
+    "Trebuchet": {
+      "name": "Trebuchet",
+      "details": "<p>Lobs stones, chunks of wood, or salvage clusters. Deals massive LR Blunt damage.</p>",
+      "type": "Deck Weapons"
+    },
+    "Trunk Drills": {
+      "name": "Trunk Drills",
+      "details": "<p>The ship can attach itself to the trunk of an ironroot while at anchor, able to weather unexpected quakes or impacts.</p>",
+      "type": "Delving Additions"
+    },
+    "Tube-Linked Suits": {
+      "name": "Tube-Linked Suits",
+      "details": "<p>Crew that have time to suit up before leaving the ship at depth gain a temporary 3-track benefit (Pressure Suit). They are immune to bad air, but may have negative effects on their ability to move freely.</p>",
+      "type": "General Additions"
+    },
+    "Tzarebuchet": {
+      "name": "Tzarebuchet",
+      "details": "<p>Designed to launch clouds of sharp-edged scree in lazy but dangerous arcs. Deals high-impact LR Keen or Hewing damage to all targets in a small area.</p>",
+      "type": "Airborne Armament"
+    },
+    "Underdeck Gymnasium": {
+      "name": "Underdeck Gymnasium",
+      "details": "<p>A set of weights, ropes, and fitness equipment for keeping yourself in shape without braving the treetops.</p>",
+      "type": "Common Rooms"
+    },
+    "Underscales": {
+      "name": "Underscales",
+      "details": "<p>Thousands of flexing scales that worm the ship forward with a sly, sinuous motion.</p><p>Deals Massive CQ Keen Damage</p>",
+      "type": "Вгризання"
+    },
+    "Underthrash Anchors": {
+      "name": "Underthrash Anchors",
+      "details": "<p>An upgrade to usual wildsea anchor systems so ubiqituous as to be treated as standard.</p>",
+      "type": "Delving Additions"
+    },
+    "Underthrash Platform": {
+      "name": "Underthrash Platform",
+      "details": "<p>A sturdy door leading to an open platform at the base of the ship, usually at the rear, below the riding-line.</p>",
+      "type": "External Structures"
+    },
+    "Undulate Fringe": {
+      "name": "Undulate Fringe",
+      "details": "<p>It's best not to ask what creature this was harvested from, or why it continues to move.</p><p>Additional Style: Flap</p>",
+      "type": "Auxiliary Lift Systems"
+    },
+    "Unspun Wool": {
+      "name": "Unspun Wool",
+      "details": "<p>Taken from surly mountain rams, and smells just as you would expect. Keeps noise low though.</p><p>Ship interior resists bad air</p>",
+      "type": "Scrubbers"
+    },
+    "Upper Jaw": {
+      "name": "Upper Jaw",
+      "details": "<p>The half-skull of an enormous creature hangs above the deck, ready to be pulled down as a macabre but effective covering against the encroaching depths.</p>",
+      "type": "Pressure Shells"
+    },
+    "Ur-Composter": {
+      "name": "Ur-Composter",
+      "details": "<p>A grumbling series of compression bins and leaf rubber hoses. Attracts insects, but never for long.</p><p>Fuelled with woodrot, offcuts and spiderwebs</p>",
+      "type": "Двигун"
+    },
+    "Vapour Brewers": {
+      "name": "Vapour Brewers",
+      "details": "<p>Automatically acquire a resource, Pure Water, after moving through a bank of high-atmosphere clouds.</p>",
+      "type": "Rising Gangs"
+    },
+    "Vapour Intakes": {
+      "name": "Vapour Intakes",
+      "details": "<p>Funnel-like collectors leading to an internal compression engine. Operates in near-silence.</p><p>Fuelled with cloudstuff and water vapour, but easily clogged by sporeclouds.</p>",
+      "type": "Двигун"
+    },
+    "Vinegar Wash": {
+      "name": "Vinegar Wash",
+      "details": "<p>Once per journey, you can move again after dropping anchor (in Dimm's Embrace) without cutting or losing impact.\nRefilling vinegar barrels at port will likely cost the crew some salvage (if a port has the facility to help them at all).</p>",
+      "type": "Escaping the Embrace"
+    },
+    "Viper's Tooth": {
+      "name": "Viper's Tooth",
+      "details": "<p>An unstable weapon that fires corrosive liquid. Deals massive LR Acid damage.</p>",
+      "type": "Deck Weapons"
+    },
+    "Volcrez Plating": {
+      "name": "Volcrez Plating",
+      "details": "<p>Lithicraft are too valuable to be traded away to even the most intrepid wildsailors, but the opportunistic may be able to harvest and incorporate chunks of their material from wrecked vessels (or through shady deals).</p><p>Your ship is completely immune to damage from flame-based hazards and extreme heat. The crew within it, however, are not.</p>",
+      "type": "Корпус"
+    },
+    "Voltaic Bath": {
+      "name": "Voltaic Bath",
+      "details": "<p>An experimental therapy room devised by surgeons and rattlehands working in tandem. A single wildsailor can heal a box of any one of their injury tracks when the ship drops anchor (once per character per journey).</p>",
+      "type": "Light, Power, & Sound"
+    },
+    "Voltaic Runners": {
+      "name": "Voltaic Runners",
+      "details": "<p>Crackling with barely contained lightning, these outboard contraptions let a ship float just above the churning branches of the sea.</p><p>Deals massive CQ Volt damage</p>",
+      "type": "Вгризання"
+    },
+    "Vox-Horn": {
+      "name": "Vox-Horn",
+      "details": "<p>A deep, blaring horn that can also be used as an effective voice amplifier.</p>",
+      "type": "General Additions"
+    },
+    "Watchful Balloonists": {
+      "name": "Watchful Balloonists",
+      "details": "<p>When at anchor (or still) the watchful balloonists rise above the deck, giving early warning of approaching hazards.</p>",
+      "type": "Rising Gangs"
+    },
+    "Water Purifier": {
+      "name": "Water Purifier",
+      "details": "<p>A funnel filtration system. Automatically acquire a barrel of fresh water with the\r\n'Pure' tag whenever you drop anchor or cut a path in rainy conditions.</p>",
+      "type": "Bounteous Additions"
+    },
+    "Weapon Housing": {
+      "name": "Weapon Housing",
+      "details": "<p>Deal massive LR Blunt, Keen, Spike, or Blast Damage (choose).</p>",
+      "type": "Outrider Fittings"
+    },
+    "Weeping Fossil Figurehead": {
+      "name": "Weeping Fossil Figurehead",
+      "details": "<p>A creature turned to something like stone by the passing ages, or by the unpredictable energies of the wilds. Greenery shies away when such a specimen draws close.</p>",
+      "type": "Pressure Shells"
+    },
+    "Well-Traveled Officer": {
+      "name": "Well-Traveled Officer",
+      "details": "<ul><li><p>2 ranks in any language</p></li><li><p>1 rank in any other language</p></li></ul>",
+      "type": "Officer"
+    },
+    "Whirling Bats": {
+      "name": "Whirling Bats",
+      "details": "<p>Lend an appreciably gothic look to your ship from a distance, but are unexpectedly friendly up close.</p>",
+      "type": "Beast Packs"
+    },
+    "Whirling Rotors": {
+      "name": "Whirling Rotors",
+      "details": "<p>When angled precisely, these allow for complex aerial manoeuvres in even the toughest conditions. You won't be able to hear yourself think, though - many crews on rotor-driven ships learn Old Hand out of necessity.</p><p>Takeoff Cost: Stealth\nFlight Style: Rush, Hover, Flap\nReduce cut by one on aerial stunts performed in dangerous crosswinds or unpredictable gales</p>",
+      "type": "Lift Systems"
+    },
+    "Whirlwind Bolt-Launcher": {
+      "name": "Whirlwind Bolt-Launcher",
+      "details": "<p>The harpoon-like bolts fired from this launcher spin as they travel, drilling through even the thickest leviathan hides. Deals massive LR Spike damage. Reduce cut when attacking tough-skinned targets.</p>",
+      "type": "Airborne Armament"
+    },
+    "Whisper-Spin Gyro": {
+      "name": "Whisper-Spin Gyro",
+      "details": "<p>A pinwheel of barely-visible whispers, each a suggestion of flight or freedom. They offer a smoother flight, but linguistic radiation risks infecting the crew if the apparatus is damaged.</p><p>Additional Style: Soar</p>",
+      "type": "Auxiliary Lift Systems"
+    },
+    "Whispering Wayplace": {
+      "name": "Whispering Wayplace",
+      "details": "<p>A sensory deprivation room filled to waist-height with sense-deadening alchemical slurry and equipped with a piloting console, designed to let whispers guide one's hands. The Whispering Wayplace is almost useless unless one has a whisper related to travel or discovery.</p>",
+      "type": "Quiet Fittings"
+    },
+    "Wicker Baskets": {
+      "name": "Wicker Baskets",
+      "details": "<p>All plants grown within the wicker baskets are immune to damage taken by the wider ship (but can still suffer negative effects aimed directly at them).</p>",
+      "type": "Gardening Plots"
+    },
+    "Wickthatch": {
+      "name": "Wickthatch",
+      "details": "<p>A mat of wildsea grasses and vines woven between reinforced poles, more for blending in than keeping the crew safe on deck.</p>",
+      "type": "Pressure Shells"
+    },
+    "Wild-Bay Doors": {
+      "name": "Wild-Bay Doors",
+      "details": "<p>A set of bay doors built into the hull that open directly to the waves from the interior of the ship, allowing outriders to launch and dock on their own or be 'scooped up' by the parent ship as it moves.</p>",
+      "type": "Launching and Docking"
+    },
+    "Wildbreath Tank Stock": {
+      "name": "Wildbreath Tank Stock",
+      "details": "<p>These pressurized tanks are filled with canopy-level air, allowing for easy breathing even when a ship is high enough that the atmosphere begins to thin.</p><p>Crew that have time to shoulder a wildbreath tank before leaving the ship at heights gain a temporary 3-track benefit, Clean Air.</p>",
+      "type": "Aeronaut Equipment"
+    },
+    "Wildsroom": {
+      "name": "Wildsroom",
+      "details": "<p>Smelling of leafmold and musk, comfortingly dark. A place to go to escape the yawning void of the heavens,.</p>",
+      "type": "Airborne Rooms"
+    },
+    "Willowpeel": {
+      "name": "Willowpeel",
+      "details": "<p>Light and flexible, but extremely fragile, even by the standards of the weakest hulls.</p><p>Increase impact when performing aerial manoeuvres</p>",
+      "type": "Корпус"
+    },
+    "Winch-Claws": {
+      "name": "Winch-Claws",
+      "details": "<p>A bank of short-range grappling claws on the sides of your ship, used to draw enemy vessels close for boarding. A tool to aid in close-range encounters rather than a weapon in its own right.</p>",
+      "type": "Hull Weapons"
+    },
+    "Windglass": {
+      "name": "Windglass",
+      "details": "<p></p>",
+      "type": "Outrider Fittings"
+    },
+    "Winding Trellis": {
+      "name": "Winding Trellis",
+      "details": "<p>When harvesting from a trellis, a twist gives the usual resources but only clears half of the marks on a Grow track.</p>",
+      "type": "Gardening Plots"
+    },
+    "Windvane Rabir": {
+      "name": "Windvane Rabir",
+      "details": "<p>Tailor-made to spin with the winds, producing a musical drone that keeps all but the most unusual garden pests at bay.</p><p>All plants within your plots have a resistance to insect predation and insect-borne diseases.</p>",
+      "type": "Ship Gardens"
+    },
+    "Wingsuit Wardrobe": {
+      "name": "Wingsuit Wardrobe",
+      "details": "<p>In no way do these suits guarantee flight or gliding, but they add both as potential outcomes to a list that otherwise comprises of 'falling to your death'.</p><p>Crew that have time to suit up before leaving the ship at heights gain a temporary 3-track benefit, Wingsuit (this can keep a character aloft in favourable winds or break a lethal fall).</p>",
+      "type": "Aeronaut Equipment"
+    },
+    "Winter's Tongue": {
+      "name": "Winter's Tongue",
+      "details": "<p>A prow attachment that flash-freezes greenery before slicing through it, leaving a wake of ice crystals as a ship moves.</p><p>Deals massive CQ Frost damage.</p>",
+      "type": "Вгризання"
+    },
+    "Wooden Screw": {
+      "name": "Wooden Screw",
+      "details": "<p>Often mistaken by wavewalking types for some kind of sky-drill, engineers assure dubious aeronauts that this does, in fact, work.</p><p>Takeoff Cost: Saws\nFlight Style: Float, Flap</p>",
+      "type": "Lift Systems"
+    },
+    "Workhorse": {
+      "name": "Workhorse",
+      "details": "<p></p>",
+      "type": "Outrider Chassis"
+    },
+    "Workshop": {
+      "name": "Workshop",
+      "details": "<p>A (probably cluttered) room with smithing and repair tools, as well as a mechanical workbench.</p>",
+      "type": "Common Rooms"
+    },
+    "Wrecker's Armoury Rack": {
+      "name": "Wrecker's Armoury Rack",
+      "details": "<p>A rack stocked with less straightforward weapons. When leaving or defending the ship, crewmembers can take a temporary piece of gear with the LR or CQ tag and a single damage type (either Hewing, Serrated or Blast). This temporary weapon comes with a two-track and can’t be repaired.</p>",
+      "type": "Boarding Equipment"
+    },
+    "Wrecker's Magnet": {
+      "name": "Wrecker's Magnet",
+      "details": "<p>A curious electromagnetic crane, often used by salvagers. Controls on the crane can increase, decrease, or cut the magnetism entirely.</p>",
+      "type": "General Additions"
+    },
+    "Xylem Wheel-Saw": {
+      "name": "Xylem Wheel-Saw",
+      "details": "<p>An angled grinding wheel designed not only to tear through an ironroot's bark, but to grip slippery internal wood with maximum traction.</p><p>Deals massive CQ Serrated damage.\nAllows for travel within larger ironroot branches, but accessing and exiting such areas mark either the ship's Armour or Seals ratings.</p>",
+      "type": "Вгризання"
+    },
+    "Zealous Hive": {
+      "name": "Zealous Hive",
+      "details": "<p>Reduce the Grow track of all plants within this plot by one box, but cut 1 when attempting to harvest them.</p>",
+      "type": "Gardening Plots"
+    }
+  }
+}
